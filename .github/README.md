@@ -18,6 +18,7 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <summary>
 click to show
 </summary>
+
 - actually computers
 - animus
 - armory expansion
@@ -51,6 +52,7 @@ click to show
 - waystones
 - worley caves
 - yarcf
+
 </details>
 
 ### Removed mods
@@ -58,12 +60,14 @@ click to show
 <summary>
 click to show
 </summary>
+
 - betterfps (very little fps improvement, use optifine instead)
 - hwyla (in favor of the one probe)
 - lostcities (due to jeid incompatibility)
 - neid (in favor of jeid)
 - recurrent complex (due to massive server lag)
 - wawla (in favor of the one probe)
+
 </details>
 
 ### Other mod changes
@@ -71,6 +75,7 @@ click to show
 <summary>
 click to show
 </summary>
+
 - all mods updated except nuclearcraft, streams
 - streams rolled back to 0.4.8 to fix spongeforge incompatibility
 - animania addons added
@@ -83,6 +88,7 @@ If you want LagGoggles on your spongeforge server, you'll need the latest versio
 <summary>
 click to show
 </summary>
+
 - cofh flat bedrock (not changed)
 - astral sorcery - increase level limit
 - draconic evolution - disable massive explosions, descrease chaos island distance
@@ -92,6 +98,7 @@ click to show
 - openblocks - increase elevator range
 - bug fixes
 - recipes for flux sponge, creative mana pool/tablet, marble hive
+
 </details>
 
 ### Recommended JVM arguments
