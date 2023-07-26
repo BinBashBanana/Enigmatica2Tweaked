@@ -6,32 +6,9 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Cobalt Block issues
 	<ore:oreCobalt>.remove(<tconstruct:metal>);
 	<ore:oreArdite>.remove(<tconstruct:metal>);
-	
+
 # Fixing the Mineralis Ritual
-	<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
-	
-	<ore:oreTin>.remove(<forestry:resources:2>);
-	<ore:oreTin>.remove(<ic2:resource:3>);
-	<ore:oreTin>.remove(<nuclearcraft:ore:1>);
-	<ore:oreTin>.remove(<mekanism:oreblock:2>);
-	<ore:oreTin>.remove(<libvulpes:ore0:5>);
-
-	<ore:oreAluminum>.remove(<immersiveengineering:ore:1>);
-	<ore:oreAluminum>.remove(<libvulpes:ore0:9>);
-
-	<ore:oreCopper>.remove(<immersiveengineering:ore:0>);
-	<ore:oreCopper>.remove(<ic2:resource:1>);
-	<ore:oreCopper>.remove(<forestry:resources:1>);
-	<ore:oreCopper>.remove(<nuclearcraft:ore:0>);
-	<ore:oreCopper>.remove(<mekanism:oreblock:1>);
-	<ore:oreCopper>.remove(<libvulpes:ore0:4>);
-	
-	<ore:oreLead>.remove(<ic2:resource:2>);
-	<ore:oreLead>.remove(<immersiveengineering:ore:2>);
-	<ore:oreLead>.remove(<nuclearcraft:ore:2>);
-
-	<ore:oreUranium>.remove(<ic2:resource:4>);
-	<ore:oreUranium>.remove(<nuclearcraft:ore:4>);
+# removed because it caused too many problems :(
 
 # Removing broken Draconium Ore from it's oredict
 	<ore:oreDraconium>.remove(<draconicevolution:draconium_ore:32767>);
@@ -45,7 +22,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 # String isn't flax, wut
 	<ore:cropFlax>.remove(<minecraft:string>);
-		
+
 # Boat Oredict 
 	val boats = [
 		<minecraft:boat>,
@@ -82,7 +59,6 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Mycelium Oredict
 	<ore:mycelium>.add(<biomesoplenty:grass:8>);
 
-	
 # Industrial Diamond
 	<ore:gemDiamond>.remove(<ic2:crafting:19>);
 
@@ -99,17 +75,29 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:quartz_block>);
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:quartz_pillar>);
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:chiseled_quartz_block>);
-	
+
 # Plutonium
 	#<ore:ingotPlutonium>.remove(<bigreactors:ingotmetals:3>);
 
-#Iridium
+# Iridium
 	<ore:ingotIridium>.add(<ic2:misc_resource:1>);
 	<ore:nuggetIridium>.add(<ic2:misc_resource:2>);
-	
+
+# Mystical World
+	<ore:oreCopper>.add(<mysticalworld:copper_ore>);
+	<ore:oreSilver>.add(<mysticalworld:silver_ore>);
+	<ore:ingotCopper>.add(<mysticalworld:copper_ingot>);
+	<ore:ingotSilver>.add(<mysticalworld:silver_ingot>);
+	<ore:blockCopper>.add(<mysticalworld:copper_block>);
+	<ore:blockSilver>.add(<mysticalworld:silver_block>);
+	<ore:dustCopper>.add(<mysticalworld:copper_dust>);
+	<ore:dustSilver>.add(<mysticalworld:silver_dust>);
+	<ore:dustIron>.add(<mysticalworld:iron_dust>);
+	<ore:dustGold>.add(<mysticalworld:gold_dust>);
+
 # Crafting hammers
 	<ore:craftingToolForgeHammer>.add(<immersiveengineering:tool>);
-	
+
 # Venison Oredict
 	<ore:listAllbeefraw>.add(<twilightforest:raw_venison>);
 	<ore:listAllmeatraw>.add(<twilightforest:raw_venison>);
@@ -122,7 +110,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 # Circuit Board
 	<ore:circuitBoard>.add(<immersiveengineering:material:27>);
-	
+
 # Amber Oredict
 	<ore:blockAmber>.add(<biomesoplenty:gem_block:7>);
 	<ore:blockAmber>.add(<thaumcraft:amber_block>);
@@ -205,7 +193,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 	val sandstone = <ore:sandstone>;
 	val basalt = <ore:stoneBasalt>;
 	val limestone = <ore:stoneLimestone>;
-	
+
 	/*
 # Railcraft stones
 	val bloodstained = <ore:stoneBloodstained>;
@@ -220,12 +208,12 @@ import crafttweaker.item.IItemStack as IItemStack;
 	val bleachedbone = <ore:stoneBleachedbone>;
 	val pearlized = <ore:stonePearlized>;
 	*/
-	
+
 # Forestry gears
 	val gearTin = <ore:gearTin>;
 	val gearCopper = <ore:gearCopper>;
 	val gearBronze = <ore:gearBronze>;	
-		
+
 # *======= Assorted OreDictionary =======*
 
 #Marble

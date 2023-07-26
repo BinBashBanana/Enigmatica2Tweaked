@@ -1,0 +1,28 @@
+{
+	"dependencies": "projectred-exploration",
+	"populate": {
+		"electrotine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 12,
+			"min-height": 2,
+			"max-height": 24,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

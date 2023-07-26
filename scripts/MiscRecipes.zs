@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 import mods.jei.JEI.removeAndHide as rh;
 # Custom recipes made by NillerMedDild
 	print("--- loading MiscRecipes.zs ---");
@@ -45,24 +47,14 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapeless(<ic2:misc_resource:1>, [<thermalfoundation:material:135>]);
 	
 # Graphite conversion 
-	recipes.addShapeless("Graphite Conversion 1", <bigreactors:ingotmetals:2>, [<nuclearcraft:ingot:8>]);
-	recipes.addShapeless("Graphite Conversion 2", <nuclearcraft:ingot:8>, [<bigreactors:ingotmetals:2>]);
+	recipes.addShapeless("Graphite Conversion 1", <bigreactors:ingotgraphite>, [<nuclearcraft:ingot:8>]);
+	recipes.addShapeless("Graphite Conversion 2", <nuclearcraft:ingot:8>, [<bigreactors:ingotgraphite>]);
 	
-	recipes.addShapeless("Graphite Conversion 3", <bigreactors:blockmetals:2> * 2, [<nuclearcraft:ingot_block:8>, <nuclearcraft:ingot_block:8>]);
-	recipes.addShapeless("Graphite Conversion 4", <nuclearcraft:ingot_block:8> * 2, [<bigreactors:blockmetals:2>, <bigreactors:blockmetals:2>]);
+	recipes.addShapeless("Graphite Conversion 3", <bigreactors:blockgraphite> * 2, [<nuclearcraft:ingot_block:8>, <nuclearcraft:ingot_block:8>]);
+	recipes.addShapeless("Graphite Conversion 4", <nuclearcraft:ingot_block:8> * 2, [<bigreactors:blockgraphite>, <bigreactors:blockgraphite>]);
 
 # Ludicrite Block
-	recipes.addShapedMirrored("Ludicrite Block 1", 
-	<bigreactors:blockmetals:4>, 
-	[[<ore:ingotBlutonium>, <ore:enderpearl>, <ore:ingotBlutonium>],
-	[<ore:blockEmerald>, <ore:netherStar>, <ore:blockEmerald>], 
-	[<ore:ingotBlutonium>, <ore:enderpearl>, <ore:ingotBlutonium>]]);
-	
-	recipes.addShapedMirrored("Ludicrite Block 2", 
-	<bigreactors:blockmetals:4>, 
-	[[<ore:ingotBlutonium>, <ore:itemBlazeRod>, <ore:ingotBlutonium>],
-	[<ore:blockEnderium>, null, <ore:blockEnderium>], 
-	[<ore:ingotBlutonium>, <ore:itemBlazeRod>, <ore:ingotBlutonium>]]);
+# no longer needed :)
 
 # Environmental Tech Guide
 	recipes.addShapeless("Environmental Tech Guide", 
@@ -188,13 +180,47 @@ import mods.jei.JEI.removeAndHide as rh;
 	[<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 # Extra Utilities Rainbow Generator
+# this is balanced :)
 	recipes.remove(<extrautils2:rainbowgenerator>);
 	recipes.addShaped("Rainbow Generator", 
 	<extrautils2:rainbowgenerator>, 
 	[[<extrautils2:opinium:4>, <extrautils2:rainbowgenerator:2>, <extrautils2:opinium:4>],
 	[<extrautils2:ingredients:16>, <draconicevolution:draconium_capacitor:1>, <extrautils2:ingredients:16>], 
 	[<extrautils2:opinium:4>, <extrautils2:rainbowgenerator:1>, <extrautils2:opinium:4>]]);
-	
+
+# Thaumcraft flux sponge
+	recipes.addShaped("Flux Sponge", 
+	<thaumcraft:creative_flux_sponge>, 
+	[[<ore:compressed3xCobblestone>, <ore:compressed3xCobblestone>, <ore:compressed3xCobblestone>],
+	[<ore:compressed3xCobblestone>, <minecraft:sponge>, <ore:compressed3xCobblestone>], 
+	[<ore:compressed3xCobblestone>, <ore:compressed3xCobblestone>, <ore:compressed3xCobblestone>]]);
+
+# Botania creative mana pool
+	recipes.addShaped("Creative Mana Pool", 
+	<botania:pool:1>, 
+	[[<botania:storage:3>, <botania:manaresource:14>, <botania:storage:3>],
+	[<botania:manaresource:14>, <botania:pool>, <botania:manaresource:14>], 
+	[<botania:storage:3>, <botania:overgrowthseed>, <botania:storage:3>]]);
+
+# Botania creative mana tablet
+	recipes.addShaped("Creative Mana Tablet", 
+	<botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}), 
+	[[<botania:storage:3>, <botania:manaresource:14>, <botania:storage:3>],
+	[<botania:manaresource:14>, <botania:manatablet>, <botania:manaresource:14>], 
+	[<botania:storage:3>, <botania:overgrowthseed>, <botania:storage:3>]]);
+
+# Extra Bees marble hive
+	recipes.addShaped("Marble Hive", 
+	<extrabees:hive:3>, 
+	[[<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
+	[<ore:stoneMarble>, <forestry:bee_queen_ge>, <ore:stoneMarble>], 
+	[<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>]]);
+
+# LibVulpes dilithium name
+	<libvulpes:ore0:0>.displayName = "Dilithium";
+	<libvulpes:productgem:0>.displayName = "Dilithium";
+	<libvulpes:productdust:0>.displayName = "Dilithium";
+
 # Pam's Lavender Shortbread
 	recipes.remove(<harvestcraft:lavendershortbreaditem>);
 	recipes.addShapeless("Pam's Harvestcraft Lavender Shortbread",
@@ -212,7 +238,7 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapeless("Wrought Iron", <gardenstuff:material:4>, [<ore:ingotIron>, <minecraft:flint>, <minecraft:flint>]);
 	recipes.addShapeless("chest2chest", <minecraft:chest> * 2, [<ore:chest>, <ore:chest>]);
 	recipes.addShapeless("slate", <rustic:slate> * 4, [<ore:stoneBasalt>, <ore:stoneBasalt>, <ore:stoneBasalt>, <ore:stoneLimestone>]);
-	recipes.addShapeless("TE Bronze", <thermalfoundation:material:163> * 4, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>]);
+	#recipes.addShapeless("TE Bronze", <thermalfoundation:material:163> * 4, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>]);
 	recipes.addShapeless("Overgrown Stone1", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <minecraft:tallgrass:1>]);
 	recipes.addShapeless("Overgrown Stone2", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <ore:grass>]);
 	recipes.addShapeless("Overgrown Stone3", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <ore:vine>]);
@@ -254,3 +280,27 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<forestry:gear_bronze>);
 	rh(<forestry:gear_copper>);	
 	rh(<libvulpes:productgear:6>);
+
+# *======= Thanks Direwolf20! =======*
+
+/* Declare as Variable - Makes referencing for tooltips easier. */
+var stoneFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}) as IItemStack;
+
+/* Hide all AE2 Facades, Re-Add Stone Facade and add information to it. */
+JEI.hide(<appliedenergistics2:facade>.withTag({ damage: 0, item: ""}, false));
+JEI.addItem(stoneFacade);
+JEI.addDescription(stoneFacade, "Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block.");
+
+/* Tooltip for Facade - Tells user to look at JEI Information Page for the Item */
+stoneFacade.addTooltip("Check item description using JEI recipe lookup for information on crafting.");
+
+/* Fix bug where casting cobalt blocks gives chisel block rather than tinkers' construct one */
+mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
+
+/* Fixed a duplication bug with Thermal Expansion and Ender IO */
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<thermalfoundation:material:768>);
+
+/* Helpful tooltips */
+<tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
+<conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));

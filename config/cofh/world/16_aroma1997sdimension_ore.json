@@ -1,19 +1,16 @@
 {
-	"dependencies": "immersiveengineering",
+	"dependencies": "aroma1997sdimension",
 	"populate": {
-		"uranium": {
+		"slime": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "immersiveengineering:ore",
-					"metadata": 5
-				},
+				"block": "aroma1997sdimension:miningore",
 				"material": "minecraft:stone",
 				"cluster-size": 4
 			},
 			"cluster-count": 12,
-			"min-height": 2,
-			"max-height": 24,
+			"min-height": 12,
+			"max-height": 38,
 			"retrogen": "false",
 			"biome": "all",
 			"dimension": {

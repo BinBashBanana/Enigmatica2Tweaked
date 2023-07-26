@@ -41,7 +41,6 @@ realms_persistence.json
 WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
-options.txt
 README.md
 crafttweaker.log
 github_changelog_generator.gemspec
@@ -105,3 +104,9 @@ config/astralsorcery/amulet_enchantments.cfg
 MakeModpackFiles.ps1
 MakeModpackFiles.bat
 secrets.ps1
+OpenComputersMod-1.8.3-52-libjnlua52-windows-x86_64.dll
+OpenComputersMod-1.8.3-53-libjnlua53-windows-x86_64.dll
+OpenComputersMod-1.8.3-54-libjnlua54-windows-x86_64.dll
+roots.log
+tv-cache
+jei_bookmarks.ini

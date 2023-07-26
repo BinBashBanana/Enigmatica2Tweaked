@@ -4,18 +4,18 @@
     "Vanilla Seeds": true,
     "Natura Saplings": true,
     "Pams Harvestcraft Saplings": true,
-    "Forestry Saplings": false,
+    "Forestry Saplings": true,
     "Vanilla Saplings": true,
     "Bonemeal": true,
     "Animal Eggs": true,
     "Pams Harvestcraft Seeds": true,
     "BiomesOPlenty Saplings": true,
     "Natura Seeds": true,
-    "Vanilla Flowers": false,
+    "Vanilla Flowers": true,
     "Natura Bushes": true,
-    "Vanilla Mushrooms": false,
+    "Vanilla Mushrooms": true,
     "Natura Nether Bushes": true,
-    "BiomesOPlenty Sacred Oak Sapling": false
+    "BiomesOPlenty Sacred Oak Sapling": true
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",

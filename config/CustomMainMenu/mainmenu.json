@@ -4,18 +4,27 @@
         "enigmatica2":
         {
             "image" : "modpack:textures/gui/enigmatica2.png",
-            "posX" : -130,
+            "posX" : -145,
             "posY" : 15,
-            "width" : 400,
-            "height" : 75,
+            "width" : 320,
+            "height" : 60,
             "alignment" : "top_center"
         },
 		"2":
         {
             "image" : "modpack:textures/gui/2.png",
-            "posX" : 265,
-            "posY" : 35,
-            "width" : 50,
+            "posX" : 170,
+            "posY" : 28,
+            "width" : 45,
+            "height" : 45,
+            "alignment" : "top_center"
+        },
+		"tweaked":
+        {
+            "image" : "modpack:textures/gui/tweaked.png",
+            "posX" : -50,
+            "posY" : 70,
+            "width" : 200,
             "height" : 50,
             "alignment" : "top_center"
         },
@@ -24,9 +33,9 @@
         {
             "image" : "modpack:textures/gui/image1.png",
             "posX" : 25,
-            "posY" : -140,
+            "posY" : -130,
             "width" : 140,
-            "height" : 280,
+            "height" : 260,
             "alignment" : "left_center"
         }
     },
@@ -36,7 +45,7 @@
 		"singleplayer": {
             "text": "menu.singleplayer",
             "posX": 44,
-            "posY": -130,
+            "posY": -110,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -51,7 +60,7 @@
         "multiplayer": {
             "text": "menu.multiplayer",
             "posX": 44,
-            "posY": -100,
+            "posY": -85,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -64,10 +73,10 @@
             }
         },
         "servers": {
-            "text": "Servers",
+            "text": "Hosting",
 			"hoverText": "BisectHosting",
             "posX": 44,
-            "posY": -70,
+            "posY": -60,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -82,7 +91,7 @@
         "mods": {
             "text": "fml.menu.mods",
             "posX": 44,
-            "posY": -40,
+            "posY": -35,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -113,7 +122,7 @@
         "languages": {
             "text": "Languages",
             "posX": 44,
-            "posY": 20,
+            "posY": 15,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -128,7 +137,7 @@
         "bug reports": {
             "text": "Bug Reports",
             "posX": 44,
-            "posY": 50,
+            "posY": 40,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -143,7 +152,7 @@
 		"discord": {
             "text": "Discord",
             "posX": 44,
-            "posY": 80,
+            "posY": 65,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -159,7 +168,7 @@
         "quit": {
             "text": "menu.quit",
             "posX": 44,
-            "posY": 110,
+            "posY": 90,
             "width": 100,
             "height": 20,
             "normalTextColor": 16777215,
@@ -177,8 +186,8 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : 8,
-            "posY" : -15,
+            "posX" : 2,
+            "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left"
         }

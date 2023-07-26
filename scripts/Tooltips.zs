@@ -10,16 +10,14 @@ import mods.jei.JEI.addDescription as ad;
 
 ad(<thermalexpansion:cache>, "Shift right click with a Crescent Hammer to pick up.", "The Cache retains it's upgrades and inventory.", "Do not break with Pickaxe!");
 
-ad(<environmentaltech:void_ore_miner_cont_6>, "Void Ore Miner Tier 6 specializes in generating rare ores from the void", "It does not generate common ores.");
-
 # Liquid Nitrogen
 	ad(<liquid:nitrogen>, "Obtainable with Nitrogen Collectors.");
 	
 # Backpacks
 ad(<backpack:backpack:*>, 
 "Backpacks from the Backpack mod can be equipped in the backpack slot.", 
-"The default keybinding to open the backpack slot is B", 
-"The keybinding to open an equipped backpack is Shift-B");
+"The default keybinding to open the backpack slot is P", 
+"The keybinding to open an equipped backpack is Shift-P");
 
 #CheeseArray (yes, hashtag)
 	var cheeses as IItemStack[] = [
@@ -60,11 +58,9 @@ ad(<backpack:backpack:*>,
 
 # Bibliocraft Clipboard
 	<bibliocraft:biblioclipboard>.addTooltip(format.red("(Removed due to instability issues)"));
-	
+
 	<libvulpes:productingot:7>.addTooltip(format.red("(Craftable)"));
 
 	<natura:redwood_sapling>.addTooltip("Caution: This tree is insanely big!");
 
 	<harvestcraft:market>.addTooltip(format.red("Disabled. Use the Market from Farming For Blockheads."));
-		
-	
