@@ -118,8 +118,8 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
+key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -127,7 +127,7 @@ key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
-key_key.personalBackpack:48
+key_key.personalBackpack:25
 key_key.betterquesting.quests:39
 key_cos.key.opencosarmorinventory:0
 key_key.next_item.desc:0
@@ -293,7 +293,7 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:0
 key_key.last_message:19
 key_key.modifier:13
 key_key.submode:0
