@@ -176,7 +176,7 @@ key_key.open_wct.desc:0
 key_key.cycle_magnet_mode.desc:0
 key_key.pearl_swapping.desc:0
 key_key.narrator:48:CONTROL
-key_key.clipboardPaste:210
+key_key.clipboardPaste:47:CONTROL
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
