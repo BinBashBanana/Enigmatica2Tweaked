@@ -1,209 +1,161 @@
 {
-    "images":
-    {
-        "enigmatica2":
-        {
-            "image" : "modpack:textures/gui/enigmatica2.png",
-            "posX" : -145,
-            "posY" : 15,
-            "width" : 320,
-            "height" : 60,
-            "alignment" : "top_center"
-        },
-		"2":
-        {
-            "image" : "modpack:textures/gui/2.png",
-            "posX" : 170,
-            "posY" : 28,
-            "width" : 45,
-            "height" : 45,
-            "alignment" : "top_center"
-        },
+	"images":
+	{
+		"iron_blocks":
+		{
+			"image" : "modpack:textures/gui/iron_blocks5.png",
+			"posX" : -200,
+			"posY" : 5,
+			"width" : 400,
+			"height" : 80,
+			"alignment" : "top_center"
+		},
+		"enigmatica_2":
+		{
+			"image" : "modpack:textures/gui/enigmatica2new.png",
+			"posX" : -190,
+			"posY" : 15,
+			"width" : 390,
+			"height" : 60,
+			"alignment" : "top_center"
+		},
 		"tweaked":
-        {
-            "image" : "modpack:textures/gui/tweaked.png",
-            "posX" : -50,
-            "posY" : 70,
-            "width" : 200,
-            "height" : 50,
-            "alignment" : "top_center"
-        },
-		
-		"transparentBox":
-        {
-            "image" : "modpack:textures/gui/image1.png",
-            "posX" : 25,
-            "posY" : -130,
-            "width" : 140,
-            "height" : 260,
-            "alignment" : "left_center"
-        }
-    },
-    
-    "buttons":
-    {
+		{
+			"image" : "modpack:textures/gui/tweaked.png",
+			"posX" : -100,
+			"posY" : 65,
+			"width" : 200,
+			"height" : 50,
+			"alignment" : "top_center"
+		},
+		"buttonbg":
+		{
+			"image" : "modpack:textures/gui/buttonbg.png",
+			"posX" : -105,
+			"posY" : -5,
+			"width" : 210,
+			"height" : 130,
+			"alignment" : "center"
+		}
+	},
+	"buttons":
+	{
 		"singleplayer": {
-            "text": "menu.singleplayer",
-            "posX": 44,
-            "posY": -110,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openGui",
-                "gui": "singleplayer"
-            }
-        },
-        "multiplayer": {
-            "text": "menu.multiplayer",
-            "posX": 44,
-            "posY": -85,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openGui",
-                "gui": "multiplayer"
-            }
-        },
-        "servers": {
-            "text": "Hosting",
-			"hoverText": "BisectHosting",
-            "posX": 44,
-            "posY": -60,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 16777215,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openLink",
-                "link": "https://www.bisecthosting.com/niller"
-            }
-        },
-        "mods": {
-            "text": "fml.menu.mods",
-            "posX": 44,
-            "posY": -35,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openGui",
-                "gui": "mods"
-            }
-        },
-        "options": {
-            "text": "menu.options",
-            "posX": 44,
-            "posY": -10,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openGui",
-                "gui": "options"
-            }
-        },
-        
-        "languages": {
-            "text": "Languages",
-            "posX": 44,
-            "posY": 15,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openGui",
-                "gui": "languages"
-            }
-        },
-        "bug reports": {
-            "text": "Bug Reports",
-            "posX": 44,
-            "posY": 40,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "openLink",
-                "link": "https://github.com/NillerMedDild/Enigmatica2/issues"
-            }
-        },
-		"discord": {
-            "text": "Discord",
-            "posX": 44,
-            "posY": 65,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://discord.gg/HnWNd7X"
-            }
-        },
-        "quit": {
-            "text": "menu.quit",
-            "posX": 44,
-            "posY": 90,
-            "width": 100,
-            "height": 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 4286414205,
-            "texture": "modpack:textures/gui/button2.png",
-            "alignment": "left_center",
-            "action": {
-                "type": "quit"
-            }
-        }		
+			"text": "menu.singleplayer",
+			"posX": -100,
+			"posY": 0,
+			"width": 200,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -100,
+			"posY": 25,
+			"width": 200,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"posX": -100,
+			"posY": 50,
+			"width": 85,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"posX": -10,
+			"posY": 50,
+			"width": 85,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"language": {
+			"text": "Languages",
+			"posX": 80,
+			"posY": 50,
+			"width": 20,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"github": {
+			"text": "Source",
+			"posX": -100,
+			"posY": 75,
+			"width": 98,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/BinBashBanana/Enigmatica2Tweaked"
+			}
+		},
+		"issues": {
+			"text": "Bug Reports",
+			"posX": 4,
+			"posY": 75,
+			"width": 97,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/BinBashBanana/Enigmatica2Tweaked/issues"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": -100,
+			"posY": 100,
+			"width": 200,
+			"height": 20,
+			"alignment": "center",
+			"action": {
+				"type": "quit"
+			}
+		}
 	},
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : 2,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
+	"labels":
+	{
+		"mojang":
+		{
+			"text" : "Copyright Mojang AB.\nDo not distribute!",
+			"posX" : 2,
+			"posY" : -19,
+			"color" : -1,
+			"alignment" : "bottom_left"
+		}
 	},
-    
-    "other":
-    {
-        
-        
-        "panorama":
-        {
-            "images" : "modpack:textures/panoramas/crag/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1.5,
-            "blur" : false,
-            "gradient" : true
-        }
-    }
+	"other":
+	{
+		"panorama":
+		{
+			"images" : "modpack:textures/panoramas/magical_forest/panorama_%c.png",
+			"animate" : true,
+			"animationSpeed" : 1.5,
+			"blur" : true,
+			"gradient" : true
+		}
+	}
 }

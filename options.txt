@@ -99,6 +99,9 @@ key_roots.keybinds.quiver:0
 key_roots.keybinds.spell_library:37
 key_roots.keybinds.cycle:0
 key_roots.keybinds.delete_spell:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,9 +120,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT

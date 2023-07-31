@@ -45,6 +45,7 @@ key_roots.keybinds.quiver:0:NONE
 key_roots.keybinds.spell_library:37:NONE
 key_roots.keybinds.cycle:0:NONE
 key_roots.keybinds.delete_spell:0:NONE
+key_quark.keybind.dropoff:0:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -63,9 +64,8 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
-key_quark.keybind.toggleAutojump:0:NONE
-key_quark.keybind.dropoff:0:NONE
 key_quark.keybind.lockBuilding:37:NONE
+key_quark.keybind.toggleAutojump:0:NONE
 key_key.toggle_shaders:0:NONE
 key_bloodmagic.keybind.open_holding:35:NONE
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -122,6 +122,7 @@ key_key.open_wct.desc:0:NONE
 key_key.cycle_magnet_mode.desc:0:NONE
 key_key.pearl_swapping.desc:0:NONE
 key_key.narrator:48:CONTROL
+key_panorama.keybinds.screenshot:62:NONE
 key_key.clipboardPaste:47:CONTROL
 key_key.cofh.multimode:47:NONE
 key_key.jei.toggleOverlay:24:CONTROL

@@ -294,13 +294,10 @@ JEI.addDescription(stoneFacade, "Facades are not disabled in this pack; just hid
 /* Tooltip for Facade - Tells user to look at JEI Information Page for the Item */
 stoneFacade.addTooltip("Check item description using JEI recipe lookup for information on crafting.");
 
-/* Fix bug where casting cobalt blocks gives chisel block rather than tinkers' construct one */
-mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
-mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
-
 /* Fixed a duplication bug with Thermal Expansion and Ender IO */
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<thermalfoundation:material:768>);
 
 /* Helpful tooltips */
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
 <conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));
+<biomesoplenty:plant_1:10>.addTooltip(format.red("It smells like rotting meat"));

@@ -53,12 +53,12 @@ ofCustomColors:true
 ofCustomItems:true
 ofCustomSky:true
 ofShowCapes:true
-ofNaturalTextures:true
+ofNaturalTextures:false
 ofEmissiveTextures:true
 ofLazyChunkLoading:true
 ofRenderRegions:false
 ofSmartAnimations:true
-ofDynamicFov:true
+ofDynamicFov:false
 ofAlternateBlocks:true
 ofDynamicLights:2
 ofScreenshotSize:1

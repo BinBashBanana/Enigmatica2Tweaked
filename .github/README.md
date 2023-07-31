@@ -2,6 +2,8 @@
 
 Fork of Enigmatica 2 (1.12.2)
 
+**This pack is unofficial and is NOT affiliated with the creators of Enigmatica. I have [permission](https://github.com/EnigmaticaModpacks/Enigmatica2/issues/748) from NillerMedDild to upload this pack.**
+
 ## Description
 This pack is essentially a mashup of Enigmatica 2 normal mode, Direwolf20 1.12.2, and ATM3R (plus a few other mods).
 A great all-purpose pack for beginners and experienced players.
@@ -11,7 +13,7 @@ I'd say the pack is just lighter than ATM3R.
 This pack does NOT include: refined storage, gregtech, buildcraft, projectE, avaritia, mystical agriculture, others...
 
 ### [Full mod list](/MODLIST.md)
-### Latest release: 1.00
+### Latest release: 1.01
 
 ### Added mods
 <details>
@@ -96,6 +98,7 @@ click to show
 - extra utils 2 - disable deep dark dimension
 - improve ore dictionary/generation/void miner output
 - openblocks - increase elevator range
+- embers - decrease ancient golem spawn frequency
 - bug fixes
 - recipes for flux sponge, creative mana pool/tablet, marble hive
 
@@ -120,8 +123,10 @@ Note: you can usually get away with 4 GB, but 6 GB is better especially for preg
 - [BDcraft Modded](https://bdcraft.net/community/viewtopic.php?t=6510)
 
 ### Links
-- [Enigmatica 2 Tweaked Curseforge](https://curseforge.com/minecraft/modpacks/enigmatica-2-tweaked)
+- [Enigmatica 2 Tweaked Curseforge](https://curseforge.com/minecraft/modpacks/enigmatica2tweaked)
 - [Enigmatica 2 Tweaked GitHub](https://github.com/BinBashBanana/Enigmatica2Tweaked)
+
+### Links (non-affiliated)
 - [Enigmatica 2 Curseforge](https://curseforge.com/minecraft/modpacks/enigmatica2)
 - [Enigmatica Discord](https://discord.gg/HnWNd7X)
 
@@ -132,6 +137,31 @@ click to show
 </summary>
 
 - the list is gone lol
+
+#### Pack files
+- curseforge
+  - config
+  - resources
+  - scripts
+  - options.txt
+  - optionsof.txt
+- client bundle
+  - config
+  - mods
+  - resources
+  - scripts
+  - options.txt
+  - optionsof.txt
+- server bundle
+  - config
+  - mods
+  - scripts
+  - structures
+  - server.properties
+  - SERVER_GUIDE.txt
+  - ServerStart.bat
+  - ServerStartLinux.sh
+  - settings.cfg
 
 #### Ores
 

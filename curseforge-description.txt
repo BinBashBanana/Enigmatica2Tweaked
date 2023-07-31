@@ -2,6 +2,8 @@
 <br />
 <p>
 Fork of Enigmatica 2 (1.12.2)
+<br />
+<b>This pack is unofficial and is NOT affiliated with the creators of Enigmatica. I have <a href="https://github.com/EnigmaticaModpacks/Enigmatica2/issues/748">permission</a> from NillerMedDild to upload this pack.</b>
 </p>
 <br />
 <h3>Description</h3>
@@ -19,13 +21,10 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <br />
 <h4><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/MODLIST.md">Full mod list</a></h4>
 <br />
-<h4>Latest release: 1.00</h4>
+<h4>Latest release: 1.01</h4>
 <br />
 <h4>Added mods</h4>
-<details>
-<summary>
-click to show
-</summary>
+<div class="spoiler">
 <li>actually computers</li>
 <li>animus</li>
 <li>armory expansion</li>
@@ -59,38 +58,29 @@ click to show
 <li>waystones</li>
 <li>worley caves</li>
 <li>yarcf</li>
-</details>
+</div>
 <br />
 <h4>Removed mods</h4>
-<details>
-<summary>
-click to show
-</summary>
+<div class="spoiler">
 <li>betterfps (very little fps improvement, use optifine instead)</li>
 <li>hwyla (in favor of the one probe)</li>
 <li>lostcities (due to jeid incompatibility)</li>
 <li>neid (in favor of jeid)</li>
 <li>recurrent complex (due to massive server lag; add this to your server before you pregenerate the world, then remove it)</li>
 <li>wawla (in favor of the one probe)</li>
-</details>
+</div>
 <br />
 <h4>Other mod changes</h4>
-<details>
-<summary>
-click to show
-</summary>
+<div class="spoiler">
 <li>all mods updated except nuclearcraft, streams</li>
 <li>streams rolled back to 0.4.8 to fix spongeforge incompatibility</li>
 <li>animania addons added</li>
 
 If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
-</details>
+</div>
 <br />
 <h4>Config changes</h4>
-<details>
-<summary>
-click to show
-</summary>
+<div class="spoiler">
 <li>cofh flat bedrock (not changed)</li>
 <li>astral sorcery - increase level limit</li>
 <li>draconic evolution - disable massive explosions, descrease chaos island distance</li>
@@ -98,9 +88,10 @@ click to show
 <li>extra utils 2 - disable deep dark dimension</li>
 <li>improve ore dictionary/generation/void miner output</li>
 <li>openblocks - increase elevator range</li>
+<li>embers - decrease ancient golem spawn frequency</li>
 <li>bug fixes</li>
 <li>recipes for flux sponge, creative mana pool/tablet, marble hive</li>
-</details>
+</div>
 <br />
 <h4>Recommended JVM arguments</h4>
 From <a href="https://www.reddit.com/r/feedthebeast/comments/5jhuk9/modded_mc_and_memory_usage_a_history_with_a/">this reddit post</a>:
@@ -124,5 +115,7 @@ Note: you can usually get away with 4 GB, but 6 GB is better especially for preg
 <br />
 <h4>Links</h4>
 <li><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked">Enigmatica 2 Tweaked GitHub</a></li>
+<br />
+<h4>Links (non-affiliated)</h4>
 <li><a href="https://curseforge.com/minecraft/modpacks/enigmatica2">Enigmatica 2 Curseforge</a></li>
 <li><a href="https://discord.gg/HnWNd7X">Enigmatica Discord</a></li>

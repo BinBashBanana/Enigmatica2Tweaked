@@ -6828,7 +6828,7 @@
           "name:8": "A slight breeze",
           "autoClaim:8": "false",
           "isSilent:8": "false",
-          "desc:8": "Passive power generation. Who doesn\u0027t like passive power generation? Make sure to put this up high, where the wind is windier! \n\nNOTE: The Wind Generator\u0027s output has been nerfed in the Enigmatica modpacks."
+          "desc:8": "Passive power generation. Who doesn\u0027t like passive power generation? Make sure to put this up high, where the wind is windier!"
         }
       },
       "tasks:9": {
@@ -17794,7 +17794,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Dramatic Pause",
-          "desc:8": "  By now, you should have successfully made §lWood Planks§r from demanding it through an §lME Terminal§r.  If not, check your connections (A §lNetwork Tool§r may help), check your power supply, and check your §lCrafting Pattern§r for any flaws.  If you\u0027re still having problems doing your first autocraft, then feel free to drop by the Enigmatica Discord and ask for help.\n\n§9§nhttps://discord.gg/HnWNd7X§r\n\n"
+          "desc:8": "  By now, you should have successfully made §lWood Planks§r from demanding it through an §lME Terminal§r.  If not, check your connections (A §lNetwork Tool§r may help), check your power supply, and check your §lCrafting Pattern§r for any flaws."
         }
       },
       "tasks:9": {
@@ -75147,7 +75147,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "pack_name:8": "Enigmatica 2",
+      "pack_name:8": "Enigmatica 2 Tweaked",
       "hardcore:1": 0,
       "editmode:1": 0,
       "livesMax:4": 10,
