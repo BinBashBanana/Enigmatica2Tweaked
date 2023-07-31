@@ -1,11 +1,13 @@
 ## Enigmatica 2 Tweaked 1.00 Modlist
+
 1.12.2 forge 14.23.5.2859  
 Generate list with `ls | sed 's/^/- /g'`
+
 ---
 - ActuallyAdditions-1.12.2-r152.jar
 - ActuallyBaubles-1.12-1.1.jar
 - actuallycomputers-2.2.0.jar
-- AdvancedRocketry-1.12.2-2.0.0-13.jar
+- AdvancedRocketry-1.12.2-2.0.0-17.jar
 - ae2stuff-0.7.0.4-mc1.12.2.jar
 - AE2WTLib-1.12.2-1.0.34.jar
 - AIImprovements-1.12-0.0.1b3.jar
@@ -15,6 +17,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - animania-1.12.2-catsdogs-1.0.0.28.jar
 - animania-1.12.2-extra-1.0.2.28.jar
 - animania-1.12.2-farm-1.0.2.28.jar
+- Animus-1.12-2.1.7.jar
 - AppleCore-mc1.12.2-3.4.0.jar
 - AppleSkin-mc1.12-1.0.14.jar
 - appliedenergistics2-rv6-stable-7.jar
@@ -80,7 +83,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - DiscordSuite-2.2.4.jar
 - Draconic-Evolution-1.12.2-2.3.28.354-universal.jar
 - EmbersRekindled-1.19.jar
-- EnderCore-1.12.2-0.5.76.jar
+- EnderCore-1.12.2-0.5.77.jar
 - EnderIO-1.12.2-5.3.70.jar
 - EnderIO-endergy-1.12.2-5.3.70.jar
 - EnderStorage-1.12.2-2.4.6.137-universal.jar

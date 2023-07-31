@@ -141,6 +141,7 @@ click to show
 #### Pack files
 - curseforge
   - config
+  - (mods)
   - resources
   - scripts
   - options.txt
