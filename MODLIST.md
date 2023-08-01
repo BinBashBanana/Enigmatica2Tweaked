@@ -272,7 +272,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - UnlimitedChiselWorks-0.3.5.jar
 - unloader-1.2.0.jar
 - valkyrielib-1.12.2-2.0.20.1.jar
-- __VanillaFix-1.0.10-150.jar
+- __VanillaFix-1.0.10-150_repack.jar
 - villager-market-1.12.2-1.0.2.jar
 - WAIM-1.0.0.jar
 - WanionLib-1.12.2-2.91.jar

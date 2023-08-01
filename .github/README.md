@@ -138,6 +138,9 @@ click to show
 
 - the list is gone lol
 
+maybe in future updates:
+- downgrade immersive tech to 1.8.94
+
 #### Pack files
 - curseforge
   - config
