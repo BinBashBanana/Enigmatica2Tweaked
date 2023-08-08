@@ -9,11 +9,12 @@ This pack is essentially a mashup of Enigmatica 2 normal mode, Direwolf20 1.12.2
 A great all-purpose pack for beginners and experienced players.
 It is kitchen-sink style, however it includes Enigmatica 2's quest book to help you along.
 This pack is medium-heavy, requiring about 6 GB of ram allocated to perform well.
-I'd say the pack is just lighter than ATM3R.  
+I'd say the pack is just lighter than ATM3R.
+As of version 1.02, some mods from E2Eu are included.  
 This pack does NOT include: refined storage, gregtech, buildcraft, projectE, avaritia, mystical agriculture, others...
 
 ### [Full mod list](/MODLIST.md)
-### Latest release: 1.01
+### Latest release: 1.02 - [Changelog](/changelogs/CHANGELOG.md)
 
 ### Added mods
 <details>
@@ -22,17 +23,32 @@ click to show
 </summary>
 
 - actually computers
+- ae additions
+- ae2 fluid crafting rework
+- ae2 unofficial extended life
 - animus
+- aqua acrobatics
 - armory expansion
 - aroma1997s dimensional world
+- better questing unofficial
 - bonsai trees
 - born in a barn
 - chicken chunks
 - crossroads/essentials
+- /dank/null/no_RCE/
 - endergy
+- entity culling
 - exchangers
+- fluidlogged api
+- friendly chests
 - furniture mod
-- jeid
+- gas conduits
+- hesperus
+- integrated nbt
+- jei integration
+- jei utilities
+- lazy ae2
+- lazy ae2 patch
 - letsencryptcraft
 - mob grinding utils
 - mod name tooltip
@@ -40,16 +56,23 @@ click to show
 - morpheus
 - netherportalfix
 - no tema stahp
+- normalasm (custom build, override)
+- packagedastral
+- packagedauto
+- packageddraconic
 - pressure pipes
 - projectred
+- proportional destruction particles
 - random things
 - roguelike dungeons
+- roughly enough ids
+- seared ladder backport
 - simply jetpacks 2
 - storage drawers extras
 - tatw (beta version)
 - the one probe
 - top addons
-- vanillafix (override because the file needed to be renamed)
+- universal tweaks
 - waim
 - waystones
 - worley caves
@@ -63,10 +86,17 @@ click to show
 click to show
 </summary>
 
+- ae2, wireless crafting terminal (in favor of ae2 unofficial extended life)
+- ai improvements, diet hoppers, ding, fastworkbench, fence jumper, no night vision flashing, quick leaf decay, swing through grass, toast control, unloader (in favor of universal tweaks)
+- better questing/standard expansion/quest book (in favor of better questing unofficial)
 - betterfps (very little fps improvement, use optifine instead)
+- /dank/null (in favor of /dank/null/no_RCE/)
+- extra cells (in favor of ae additions)
+- foamfix (in favor of vintagefix)
 - hwyla (in favor of the one probe)
-- lostcities (due to jeid incompatibility)
-- neid (in favor of jeid)
+- lostcities (due to jeid/reid incompatibility)
+- neid (in favor of roughly enough ids)
+- phosphor (in favor of hesperus)
 - recurrent complex (due to massive server lag)
 - wawla (in favor of the one probe)
 
@@ -82,7 +112,6 @@ click to show
 - streams rolled back to 0.4.8 to fix spongeforge incompatibility
 - animania addons added
 
-If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
 </details>
 
 ### Config changes
@@ -100,7 +129,7 @@ click to show
 - openblocks - increase elevator range
 - embers - decrease ancient golem spawn frequency
 - bug fixes
-- recipes for flux sponge, creative mana pool/tablet, marble hive
+- recipes for flux sponge, creative mana pool/tablet, marble hive, quest book
 
 </details>
 
@@ -116,6 +145,12 @@ For the server, from [mcflags.emc.gs](https://mcflags.emc.gs):
 java -Xmx6G -Xms5G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar forge-1.12.2-14.23.5.2859.jar nogui
 ```
 Note: you can usually get away with 4 GB, but 6 GB is better especially for pregen.
+
+### Extra notes for servers
+- Do not use chunk pregenerator due to incompatibilities with reid/jeid. Use `/forge generate` until it is fixed. See [RoughlyEnoughIDs#14](https://github.com/TerraFirmaCraft-The-Final-Frontier/RoughlyEnoughIDs/issues/14) for more information.
+- If you want recurrent complex structures in your world, add the mod before you pregenerate the world, then remove it.
+- If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
+- I have included a patched build of NormalASM that fixes a crash with spongeforge. See issue 194 for more information. You will also need to set `threadPriorityFix=false` in normalasm.cfg (server only).
 
 ### Recommended user mods/resource packs
 - [OptiFine - HIGHLY recommended](https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar)
@@ -139,7 +174,8 @@ click to show
 - the list is gone lol
 
 maybe in future updates:
-- downgrade immersive tech to 1.8.94
+- nothirium
+- mo creatures extended
 
 #### Pack files
 - curseforge

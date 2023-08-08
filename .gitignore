@@ -30,6 +30,8 @@ config/MouseTweaks.cfg
 config/jei/worldSettings.cfg
 config/jei/lookupHistory.zip
 config/jei/bookmarks.ini
+config/normalasm
+config/tconstruct_oredictcache.dat
 zs_export.json
 .curseclient
 .ReAuth.cfg
@@ -76,6 +78,7 @@ eula.txt
 banned-players.json
 banned-ips.json
 ChangelogGenerator.jar
+optionsshaders.txt
 
 # Instance Sync
 **/*.jar

@@ -242,7 +242,8 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapeless("Overgrown Stone1", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <minecraft:tallgrass:1>]);
 	recipes.addShapeless("Overgrown Stone2", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <ore:grass>]);
 	recipes.addShapeless("Overgrown Stone3", <biomesoplenty:grass:1>, [<ore:materialStoneTool>, <ore:vine>]);
-	
+	recipes.addShapeless("Quest Book", <betterquesting:quest_book>, [<minecraft:book>, <minecraft:dirt>, <minecraft:cobblestone>]);
+
 # *======= Metal Nuggets =======*
 
 	rh(<immersiveengineering:metal:29>);
