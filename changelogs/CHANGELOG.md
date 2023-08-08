@@ -5,6 +5,7 @@
 - updated mods
 
 **Added mods**
+
 - ae additions
 - ae2 fluid crafting rework
 - ae2 unofficial extended life
@@ -31,6 +32,7 @@
 - universal tweaks
 
 **Removed mods**
+
 - ae2, wireless crafting terminal (in favor of ae2 unofficial extended life)
 - ai improvements, diet hoppers, ding, fastworkbench, fence jumper, no night vision flashing, quick leaf decay, swing through grass, toast control, unloader (in favor of universal tweaks)
 - better questing/standard expansion/quest book (in favor of better questing unofficial)
@@ -69,6 +71,7 @@
 - updated mods
 
 **Added mods**
+
 - actually computers
 - animus
 - armory expansion
@@ -104,6 +107,7 @@
 - yarcf
 
 **Removed mods**
+
 - betterfps (very little fps improvement, use optifine instead)
 - hwyla (in favor of the one probe)
 - lostcities (due to jeid incompatibility)
@@ -112,11 +116,13 @@
 - wawla (in favor of the one probe)
 
 **Other mod changes**
+
 - all mods updated except nuclearcraft, streams
 - streams rolled back to 0.4.8 to fix spongeforge incompatibility
 - animania addons added
 
 **Config changes**
+
 - cofh flat bedrock (not changed)
 - astral sorcery - increase level limit
 - draconic evolution - disable massive explosions, descrease chaos island distance
