@@ -2,7 +2,7 @@
 
 # Thanks to the FTB Interactions devs for making me aware of this feature <3
 var categoriesToHide as string[] = [
-	
+
 	"minecraft.fuel",
 	"jehc.market",
 	"thermalexpansion.factorizer_combine",

@@ -10,9 +10,9 @@ mods.nuclearcraft.melter.addRecipe(<ore:obsidian>, <liquid:obsidian> * 144);
 	mods.mekanism.smelter.addRecipe(<ic2:dust:11>, <nuclearcraft:ingot:6>);
 
 # A slight buff to the Deuterium recipe
-	mods.nuclearcraft.electrolyser.addRecipe([<liquid:heavywater> * 1000, <liquid:deuterium> * 500,  <liquid:deuterium> * 500, <liquid:oxygen> * 500, <liquid:tritium> * 50]);
-	mods.nuclearcraft.electrolyser.addRecipe([<liquid:ic2heavy_water> * 1000, <liquid:deuterium> * 500,  <liquid:deuterium> * 500, <liquid:oxygen> * 500, <liquid:tritium> * 50]);
-	mods.nuclearcraft.electrolyser.addRecipe([<liquid:water> * 1000, <liquid:hydrogen> * 500, <liquid:hydrogen> * 500,  <liquid:deuterium> * 50, <liquid:oxygen> * 500]);
+	mods.nuclearcraft.electrolyser.addRecipe([<liquid:heavywater> * 1000, <liquid:deuterium> * 500, <liquid:deuterium> * 500, <liquid:oxygen> * 500, <liquid:tritium> * 50]);
+	mods.nuclearcraft.electrolyser.addRecipe([<liquid:ic2heavy_water> * 1000, <liquid:deuterium> * 500, <liquid:deuterium> * 500, <liquid:oxygen> * 500, <liquid:tritium> * 50]);
+	mods.nuclearcraft.electrolyser.addRecipe([<liquid:water> * 1000, <liquid:hydrogen> * 500, <liquid:hydrogen> * 500, <liquid:deuterium> * 50, <liquid:oxygen> * 500]);
 	mods.nuclearcraft.electrolyser.removeRecipeWithOutput([<liquid:deuterium> * 950, <liquid:oxygen> * 500, <liquid:tritium> * 50, null]);
 	mods.nuclearcraft.electrolyser.removeRecipeWithOutput([<liquid:hydrogen> * 950, <liquid:deuterium> * 50, <liquid:oxygen> * 500, null]);
 
@@ -31,7 +31,7 @@ mods.nuclearcraft.melter.addRecipe(<ore:obsidian>, <liquid:obsidian> * 144);
 	mods.nuclearcraft.pressurizer.removeRecipeWithOutput([<ic2:plate:5>]);
 	mods.nuclearcraft.pressurizer.removeRecipeWithOutput([<ic2:plate:7>]);
 	mods.nuclearcraft.pressurizer.removeRecipeWithOutput([<ic2:plate:8>]);
-	
+
 	rh(<nuclearcraft:ore>);
 	rh(<nuclearcraft:ore:1>);
 	rh(<nuclearcraft:ore:2>);

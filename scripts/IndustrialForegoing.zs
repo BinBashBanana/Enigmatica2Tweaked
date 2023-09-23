@@ -4,7 +4,7 @@ import mods.industrialforegoing.ProteinReactor;
 import mods.industrialforegoing.FluidDictionary;
 #modloaded industrialforegoing teslacorelib
 print("--- loading IndustrialForegoing.zs ---");
-	
+
 # FluidDictionary Recipes
 	FluidDictionary.add("seed.oil", "seed_oil", 1);
 	FluidDictionary.add("sulfuric_acid", "sulfuricacid", 1);
@@ -16,7 +16,7 @@ print("--- loading IndustrialForegoing.zs ---");
 	for item in <ore:listAllmeatraw>.items {
 		ProteinReactor.add(item);
 	}
-	
+
 # BioReactor, additional entries
 	val otherCrops = [
 		<harvestcraft:breadfruititem>,
@@ -48,16 +48,16 @@ print("--- loading IndustrialForegoing.zs ---");
 		BioReactor.add(crop);
 	}
 
-    for seed in <ore:listAllseed>.items {
-        BioReactor.add(seed);
-    }
-	
+	for seed in <ore:listAllseed>.items {
+		BioReactor.add(seed);
+	}
+
 	for veggie in <ore:listAllveggie>.items {
 		BioReactor.add(veggie);
 	}
-	
+
 	for fruit in <ore:listAllfruit>.items {
 		BioReactor.add(fruit);
 	}
-	
+
 print("--- IndustrialForegoing.zs initialized ---");

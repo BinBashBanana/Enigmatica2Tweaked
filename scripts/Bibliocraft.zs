@@ -2,15 +2,15 @@
 	print("--- loading Bibliocraft.zs ---");
 
 # *======= Recipes =======*
-	
+
 # Bibliocraft Clipboard
 	recipes.remove(<bibliocraft:biblioclipboard>);
-	
+
 # Creative Bookcase
-	recipes.addShaped("Creative Bookcase Main", 
-	<bibliocraft:bookcasecreative>, 
+	recipes.addShaped("Creative Bookcase Main",
+	<bibliocraft:bookcasecreative>,
 	[[<bibliocraft:bigbook>, <bibliocraft:bookcase:*>, <bibliocraft:bigbook>],
-	[<bibliocraft:bigbook>, <bibliocraft:printingpress:*>, <bibliocraft:bigbook>], 
+	[<bibliocraft:bigbook>, <bibliocraft:printingpress:*>, <bibliocraft:bigbook>],
 	[<bibliocraft:bigbook>, <bibliocraft:bibliodrill>, <bibliocraft:bigbook>]]);
 
 # Switching between plank type
@@ -23,5 +23,3 @@
 	recipes.addShapeless("Creative Bookcase1", <bibliocraft:bookcasecreative:1>, [<bibliocraft:bookcasecreative>]);
 
 	print("--- Bibliocraft.zs initialized ---");
-	
-	

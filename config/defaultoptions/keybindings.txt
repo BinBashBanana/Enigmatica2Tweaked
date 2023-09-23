@@ -46,6 +46,7 @@ key_roots.keybinds.spell_library:0:NONE
 key_roots.keybinds.cycle:0:NONE
 key_roots.keybinds.delete_spell:0:NONE
 key_quark.keybind.lockBuilding:37:NONE
+key_quark.keybind.toggleAutojump:0:NONE
 key_quark.keybind.dropoff:0:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
@@ -65,7 +66,6 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
-key_quark.keybind.toggleAutojump:0:NONE
 key_bloodmagic.keybind.open_holding:0:NONE
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -190,7 +190,7 @@ key_keybind.awCore.alt.item.use.1:44:NONE
 key_keybind.awCore.alt.item.use.2:45:NONE
 key_keybind.awCore.alt.item.use.3:0:NONE
 key_keybind.awCore.alt.item.use.4:47:NONE
-key_keybind.awCore.alt.item.use.5:48:NONE
+key_keybind.awCore.alt.item.use.5:0:NONE
 key_keybind.awAutomation.toggle_workbounds_render:66:NONE
 key_keybind.vehicle.forward:17:NONE
 key_keybind.vehicle.reverse:31:NONE

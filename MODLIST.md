@@ -190,7 +190,6 @@ Generate list with `ls | sed 's/^/- /g'`
 - Neat 1.4-17.jar
 - NetherPortalFix_1.12.1-5.3.17.jar
 - NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
-- normalasm-5.14-spongeforge-compat.jar
 - NoTemaStahp-1.12.2-1.0.3.jar
 - notenoughwands-1.12-1.8.1.jar
 - NuclearCraft-2.18z-1.12.2.jar
@@ -232,7 +231,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - RebornCore-1.12.2-3.19.5-universal.jar
 - RedstoneArsenal-1.12.2-2.6.6.1-universal.jar
 - RedstoneFlux-1.12-2.1.1.1-universal.jar
-- RenderLib-1.12.2-1.3.1.jar
+- RenderLib-1.12.2-1.3.3.jar
 - ResourceLoader-MC1.12.1-1.5.3.jar
 - rftools-1.12-7.73.jar
 - rftoolsctrl-1.12-2.0.2.jar
@@ -247,6 +246,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - ShadowMC-1.12-3.8.0.jar
 - SimplyJetpacks2-1.12.2-2.2.20.0.jar
 - solcarrot-1.12.2-1.8.4.jar
+- startuptimer-1.0.1.jar
 - StorageDrawers-1.12.2-5.5.0.jar
 - StorageDrawersExtras-1.12-3.1.0.jar
 - Streams-1.12-0.4.8.jar
@@ -280,7 +280,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - UnlimitedChiselWorks-0.3.5.jar
 - valkyrielib-1.12.2-2.0.20.1.jar
 - villager-market-1.12.2-1.0.2.jar
-- vintagefix-0.2.10.jar
+- vintagefix-0.3.2.jar
 - WAIM-1.0.0.jar
 - WanionLib-1.12.2-2.91.jar
 - Waystones_1.12.2-4.1.0.jar

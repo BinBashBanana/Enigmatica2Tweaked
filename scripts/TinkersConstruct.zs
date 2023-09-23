@@ -5,7 +5,7 @@ import mods.jei.JEI.removeAndHide as rh;
 print("--- loading TinkersConstruct.zs ---");
 
 # Fixing the conflict between multiple steel recipes
-	mods.tconstruct.Alloy.removeRecipe(<liquid:steel>); 
+	mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 	mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 18, [<liquid:iron> * 18, <liquid:coal> * 25]);
 
 # Cobalt Block Unification

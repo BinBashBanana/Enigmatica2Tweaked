@@ -12,11 +12,11 @@ ad(<thermalexpansion:cache>, "Shift right click with a Crescent Hammer to pick u
 
 # Liquid Nitrogen
 	ad(<liquid:nitrogen>, "Obtainable with Nitrogen Collectors.");
-	
+
 # Backpacks
-ad(<backpack:backpack:*>, 
-"Backpacks from the Backpack mod can be equipped in the backpack slot.", 
-"The default keybinding to open the backpack slot is P", 
+ad(<backpack:backpack:*>,
+"Backpacks from the Backpack mod can be equipped in the backpack slot.",
+"The default keybinding to open the backpack slot is P",
 "The keybinding to open an equipped backpack is Shift-P");
 
 #CheeseArray (yes, hashtag)
@@ -27,16 +27,16 @@ ad(<backpack:backpack:*>,
 	<animania:goat_cheese_wheel>,
 	<animania:sheep_cheese_wheel>
 	];
-	
+
 # Animania Cheese
 	var cheeseMold = "Made by right clicking Animania Milk into a placed Cheese Mold.";
 	for cheese in cheeses {
 		ad(cheese, cheeseMold);
 	}
-	
+
 # Bag of Holding
 	ad(<extrautils2:bagofholding>, "Removed due to instability.");
-	
+
 # Blood Magic Guide
 	ad(<guideapi:bloodmagic-guide>, "Sneak-Right-Click on a Blood Altar with this book, and it will show you where to place the appropriate blocks for the different Blood Altar tiers. Right-click to change tier.");
 

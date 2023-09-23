@@ -1,5 +1,5 @@
 import mods.jei.JEI.removeAndHide as rh;
-	
+
 rh(<cyclicmagic:heart_toxic>);
 recipes.remove(<cyclicmagic:purple_helmet>);
 recipes.remove(<cyclicmagic:storage_bag>);

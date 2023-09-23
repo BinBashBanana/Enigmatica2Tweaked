@@ -22,7 +22,20 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <br />
 <h4><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/MODLIST.md">Full mod list</a></h4>
 <br />
-<h4>Latest release: 1.02 - <a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/changelogs/CHANGELOG.md">Changelog</a></h4>
+<h4>Latest release: 1.02b - <a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/changelogs/CHANGELOG.md">Changelog</a></h4>
+<br />
+<h3>Important!! Read this!!</h3>
+<p>
+I highly recommend using a custom build of NormalASM plus OptiFine with this modpack.
+You can play without either, but performance will suffer.
+I have confirmed that OptiFine is compatible, though some may want to use only NormalASM and not OptiFine.
+If you choose to do this, be sure to set `B:onDemandAnimatedTextures=false` back to `true` in `config/normalasm.cfg`.
+</p>
+<li><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/releases/download/normalasm-5.14-spongeforge-compat/normalasm-5.14-spongeforge-compat.jar">NormalASM custom build</a></li>
+<li><a href="https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar">OptiFine</a></li>
+<p>
+For more information about the custom build of NormalASM, see <a href="https://github.com/mirrorcult/NormalASM/pull/1">here</a> and <a href="https://github.com/LoliKingdom/LoliASM/pull/199">here</a>.
+</p>
 <br />
 <h4>Added mods</h4>
 <div class="spoiler">
@@ -60,7 +73,6 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <li>morpheus</li>
 <li>netherportalfix</li>
 <li>no tema stahp</li>
-<li>normalasm (custom build, override)</li>
 <li>packagedastral</li>
 <li>packagedauto</li>
 <li>packageddraconic</li>
@@ -72,6 +84,7 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <li>roughly enough ids</li>
 <li>seared ladder backport</li>
 <li>simply jetpacks 2</li>
+<li>startup timer</li>
 <li>storage drawers extras</li>
 <li>tatw (beta version)</li>
 <li>the one probe</li>
@@ -142,8 +155,7 @@ Note: you can usually get away with 4 GB, but 6 GB is better especially for preg
 <li>If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.</li>
 <li>I have included a patched build of NormalASM that fixes a crash with spongeforge. See issue 194 for more information. You will also need to set `threadPriorityFix=false` in normalasm.cfg (server only).</li>
 <br />
-<h4>Recommended user mods/resource packs</h4>
-<li><a href="https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar">OptiFine - HIGHLY recommended</a></li>
+<h4>Recommended resource packs</h4>
 <li><a href="https://github.com/F32Organization/Faithful32-1.12.2">Faithful32 Modded</a></li>
 <li><a href="https://bdcraft.net/community/viewtopic.php?t=6510">BDcraft Modded</a></li>
 <br />

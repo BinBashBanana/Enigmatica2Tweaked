@@ -14,7 +14,17 @@ As of version 1.02, some mods from E2Eu are included.
 This pack does NOT include: refined storage, gregtech, buildcraft, projectE, avaritia, mystical agriculture, others...
 
 ### [Full mod list](/MODLIST.md)
-### Latest release: 1.02 - [Changelog](/changelogs/CHANGELOG.md)
+### Latest release: 1.02b - [Changelog](/changelogs/CHANGELOG.md)
+
+## Important!! Read this!!
+I highly recommend using a custom build of NormalASM plus OptiFine with this modpack.
+You can play without either, but performance will suffer.
+I have confirmed that OptiFine is compatible, though some may want to use only NormalASM and not OptiFine.
+If you choose to do this, be sure to set `B:onDemandAnimatedTextures=false` back to `true` in `config/normalasm.cfg`.
+- [NormalASM custom build](https://github.com/BinBashBanana/Enigmatica2Tweaked/releases/download/normalasm-5.14-spongeforge-compat/normalasm-5.14-spongeforge-compat.jar)
+- [OptiFine](https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar)
+
+For more information about the custom build of NormalASM, see [here](https://github.com/mirrorcult/NormalASM/pull/1) and [here](https://github.com/LoliKingdom/LoliASM/pull/199).
 
 ### Added mods
 <details>
@@ -56,7 +66,6 @@ click to show
 - morpheus
 - netherportalfix
 - no tema stahp
-- normalasm (custom build, override)
 - packagedastral
 - packagedauto
 - packageddraconic
@@ -68,6 +77,7 @@ click to show
 - roughly enough ids
 - seared ladder backport
 - simply jetpacks 2
+- startup timer
 - storage drawers extras
 - tatw (beta version)
 - the one probe
@@ -152,8 +162,7 @@ Note: you can usually get away with 4 GB, but 6 GB is better especially for preg
 - If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
 - I have included a patched build of NormalASM that fixes a crash with spongeforge. See issue 194 for more information. You will also need to set `threadPriorityFix=false` in normalasm.cfg (server only).
 
-### Recommended user mods/resource packs
-- [OptiFine - HIGHLY recommended](https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar)
+### Recommended resource packs
 - [Faithful32 Modded](https://github.com/F32Organization/Faithful32-1.12.2)
 - [BDcraft Modded](https://bdcraft.net/community/viewtopic.php?t=6510)
 

@@ -1,5 +1,5 @@
 #Compatibility for Immersive Engineering <liquid:ethanol>
-	
+
 for item in <ore:listAllveggie>.items {
 	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 80, item, 500);
 }

@@ -1,14 +1,14 @@
 # Missing Dust Compression
-	recipes.addShaped("LeadDustFromTiny", 
-	<thermalfoundation:material:67>, 
+	recipes.addShaped("LeadDustFromTiny",
+	<thermalfoundation:material:67>,
 	[[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>],
-	[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>], 
+	[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>],
 	[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>]]);
-	
-	recipes.addShaped("LapisDustFromTiny", 
-	<ic2:dust:9>, 
+
+	recipes.addShaped("LapisDustFromTiny",
+	<ic2:dust:9>,
 	[[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>],
-	[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>], 
+	[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>],
 	[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>]]);
 
 
@@ -26,7 +26,7 @@ import mods.ic2.ThermalCentrifuge;
 
 # Custom recipes made by NillerMedDild
 	print("--- loading ImmersiveEngineering.zs ---");
-	
+
 # *======= Canner =======*
 
 	#Canner.addBottleRecipe(output, container, fillIngredient);

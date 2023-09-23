@@ -16,14 +16,14 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<ore:oreDraconium>.add(<draconicevolution:draconium_ore>);
 	<ore:oreDraconium>.add(<draconicevolution:draconium_ore:1>);
 	<ore:oreDraconium>.add(<draconicevolution:draconium_ore:2>);
-	
+
 # Slag
 	<ore:crystalSlag>.add(<ic2:misc_resource:5>);
 
 # String isn't flax, wut
 	<ore:cropFlax>.remove(<minecraft:string>);
 
-# Boat Oredict 
+# Boat Oredict
 	val boats = [
 		<minecraft:boat>,
 		<minecraft:spruce_boat>,
@@ -71,7 +71,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<ore:crystalCertus>.add(<appliedenergistics2:material>);
 	<ore:crystalCertus>.add(<appliedenergistics2:material:1>);
 	<ore:crystalCertus>.add(<appliedenergistics2:material:10>);
-	
+
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:quartz_block>);
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:quartz_pillar>);
 	<ore:blockCertusQuartz>.add(<appliedenergistics2:chiseled_quartz_block>);
@@ -101,7 +101,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Venison Oredict
 	<ore:listAllbeefraw>.add(<twilightforest:raw_venison>);
 	<ore:listAllmeatraw>.add(<twilightforest:raw_venison>);
-	
+
 	<ore:listAllbeefcooked>.add(<twilightforest:cooked_venison>);
 	<ore:listAllmeatcooked>.add(<twilightforest:cooked_venison>);
 
@@ -117,10 +117,10 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<ore:blockAmber>.add(<thaumcraft:amber_brick>);
 
 # Astral Sorcery Rock Crystals
-    <ore:crystalAstralAny>.add(<astralsorcery:itemrockcrystalsimple>.withEmptyTag());
-    <ore:crystalAstralAny>.add(<astralsorcery:itemtunedrockcrystal>.withEmptyTag());
-    <ore:crystalAstralAny>.add(<astralsorcery:itemcelestialcrystal>.withEmptyTag());
-    <ore:crystalAstralAny>.add(<astralsorcery:itemtunedcelestialcrystal>.withEmptyTag());
+	<ore:crystalAstralAny>.add(<astralsorcery:itemrockcrystalsimple>.withEmptyTag());
+	<ore:crystalAstralAny>.add(<astralsorcery:itemtunedrockcrystal>.withEmptyTag());
+	<ore:crystalAstralAny>.add(<astralsorcery:itemcelestialcrystal>.withEmptyTag());
+	<ore:crystalAstralAny>.add(<astralsorcery:itemtunedcelestialcrystal>.withEmptyTag());
 
 # Blood Magic Runes
 	val runes = [
@@ -140,7 +140,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 	for rune in runes {
 		<ore:runeBlood>.add(rune);
 	}
-	
+
 # CakeDict(TM)
 	val cakes = [
 		<minecraft:cake>,
@@ -159,25 +159,25 @@ import crafttweaker.item.IItemStack as IItemStack;
 	for cake in cakes {
 		<ore:foodCake>.add(cake);
 	}
-	
+
 # Wither Dust
 	<ore:dustWither>.add(<darkutils:material>);
 	<ore:dustWither>.add(<quark:black_ash>);
 
 # Astral Sorcery compatibility for Chisel marble
 	<ore:blockMarble>.add(<chisel:marble2:7>);
-	
+
 # Fertilizer
 	var fertilizer = <ore:fertilizer>;
 	fertilizer.add(<actuallyadditions:item_fertilizer>);
 	fertilizer.add(<minecraft:dye:15>);
 	fertilizer.add(<industrialforegoing:fertilizer>);
 	fertilizer.add(<forestry:fertilizer_compound>);
-	
+
 # Sawdust compat
 	<ore:pulpWood>.add(<thermalfoundation:material:800>);
 	<ore:dustWood>.add(<forestry:wood_pulp>);
-	
+
 # Diamond Chip
 	<ore:nuggetDiamond>.add(<opencomputers:material:29>);
 	<ore:chipDiamond>.add(<thermalfoundation:material:16>);
@@ -212,7 +212,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Forestry gears
 	val gearTin = <ore:gearTin>;
 	val gearCopper = <ore:gearCopper>;
-	val gearBronze = <ore:gearBronze>;	
+	val gearBronze = <ore:gearBronze>;
 
 # *======= Assorted OreDictionary =======*
 
@@ -224,32 +224,32 @@ import crafttweaker.item.IItemStack as IItemStack;
 	stonemarblepolished.add(<astralsorcery:blockmarble:4>);
 	stonemarblepolished.add(<astralsorcery:blockmarble:5>);
 	stonemarblepolished.add(<astralsorcery:blockmarble:6>);
-	
+
 # Removing gears from JEI "cycling"
 	gearTin.remove(<forestry:gear_tin>);
 	gearCopper.remove(<forestry:gear_copper>);
 	gearBronze.remove(<forestry:gear_bronze>);
-	
+
 # Immersive Tech Salt
 	<ore:itemSalt>.add(<immersivetech:material>);
 	<ore:foodSalt>.add(<immersivetech:material>);
 	<ore:dustSalt>.add(<immersivetech:material>);
-	
+
 # *======= Quark Specific Oredict =======*
 
 	stonemarble.add(<quark:world_stone_bricks:4>);
 	stonemarble.add(<quark:marble:1>);
-	
+
 	sandstone.add(<quark:sandstone_new>);
 	sandstone.add(<quark:sandstone_new:1>);
 	sandstone.add(<quark:sandstone_new:2>);
 	sandstone.add(<quark:sandstone_new:3>);
-	
+
 	diorite.add(<quark:world_stone_bricks:1>);
 	andesite.add(<quark:world_stone_bricks:2>);
 	granite.add(<quark:world_stone_bricks>);
-	
+
 	basalt.add(<quark:world_stone_bricks:3>);
-	
+
 	limestone.add(<quark:limestone:1>);
 	limestone.add(<quark:world_stone_bricks:5>);

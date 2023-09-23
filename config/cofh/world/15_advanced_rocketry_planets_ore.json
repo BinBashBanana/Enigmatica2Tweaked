@@ -73,7 +73,7 @@
 				]
 			}
 		},
-		"mana_infused": {
+		"mana_infused_planet": {
 			"distribution": "uniform",
 			"generator": {
 				"block": { 					 					
@@ -123,7 +123,7 @@
 				]
 			}
 		},
-		"draconium_nether": {
+		"draconium_nether_planet": {
 			"distribution": "uniform",
 			"generator": {
 				"block": { 					 					
@@ -149,7 +149,7 @@
 				]
 			}
 		},
-		"draconium_end": {
+		"draconium_end_planet": {
 			"distribution": "uniform",
 			"generator": {
 				"block": { 					 					
@@ -201,7 +201,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": { 					 					
-					"name": "<minecraft:end_stone>", 					 					
+					"name": "minecraft:end_stone", 					 					
 					"metadata": 0 				 				
 				},
 				"material": "minecraft:stone",

@@ -3,10 +3,10 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 # Custom recipes made by NillerMedDild
 	print("--- loading Plates.zs ---");
-	
+
 # *======= Variables =======*
 
-# All plates that are added by 2 or more mods 
+# All plates that are added by 2 or more mods
 	val plateIron = <ore:plateIron>;
 	val plateGold = <ore:plateGold>;
 	val plateCopper = <ore:plateCopper>;
@@ -66,7 +66,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<immersiveengineering:metal:39>,
 	<immersiveengineering:metal:40>
 	] as IItemStack[];
-	
+
 	for plate in platesIE {
 	rh(plate);
 	mods.immersiveengineering.MetalPress.removeRecipe(plate);
@@ -110,7 +110,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 	recipes.addShapeless("IC2Casing5", <ic2:casing:4> * 2, [<immersiveengineering:tool>, <ore:plateLead>]);
 	recipes.addShapeless("IC2Casing6", <ic2:casing:5> * 2, [<immersiveengineering:tool>, <ore:plateSteel>]);
 	recipes.addShapeless("IC2Casing7", <ic2:casing:6> * 2, [<immersiveengineering:tool>, <ore:plateTin>]);
-	
+
 # IndustrialCraft2 hammer compatibility for Thermal Expansion plates
 	recipes.addShapeless("plate32b", <thermalfoundation:material:32>, [<ore:ingotIron>, <ic2:forge_hammer>.anyDamage()]);
 	recipes.addShapeless("plate33b", <thermalfoundation:material:33>, [<ore:ingotGold>, <ic2:forge_hammer>.anyDamage()]);
@@ -135,7 +135,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 # IndustrialCraft MetalFormer & Block Cutter compatibility for Thermal Expansion plates
 	# Can be found in the config/ic2 folder
-	
+
 # Immersive Engineering Metal Press compatibility for Thermal Expansion Plates
 	mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 125, 1);
 	mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:33>, <ore:ingotGold>, <immersiveengineering:mold>, 125, 1);
@@ -153,7 +153,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Removing IC2 Plates from the Metal Press
 	mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:8>);
 	mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate>);
-	
+
 # Removing plates from JEI "cycling".
 	plateIron.remove(<immersiveengineering:metal:39>);
 	plateIron.remove(<ic2:plate:3>);
@@ -182,4 +182,3 @@ import crafttweaker.item.IItemStack as IItemStack;
 	plateConstantan.remove(<immersiveengineering:metal:36>);
 	plateBronze.remove(<embers:plate_bronze>);
 	plateBronze.remove(<ic2:plate>);
-	

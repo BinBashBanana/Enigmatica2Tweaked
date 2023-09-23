@@ -1,3 +1,26 @@
+# Enigmatica 2 Tweaked 1.02b Changelog
+
+*Using Forge-1.12.2-14.23.5.2859*
+
+**Compatible with 1.02**
+
+**Updated mods**
+
+- renderlib
+- vintagefix
+- normalasm needs to be added manually
+
+**Added mods**
+
+- startup timer
+
+**Config changes**
+
+- re-enable egg throwing
+- fixed some log spam
+
+
+
 # Enigmatica 2 Tweaked 1.02 Changelog
 
 *Using Forge-1.12.2-14.23.5.2859*

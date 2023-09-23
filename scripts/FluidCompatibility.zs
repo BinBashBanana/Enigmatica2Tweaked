@@ -37,7 +37,7 @@ print("--- loading FluidCompatibility.zs ---");
 	Crucible.addRecipe(<liquid:terrasteel> * 16, <botania:manaresource:18>, 500);
 	Crucible.addRecipe(<liquid:terrasteel> * 144, <botania:manaresource:4>, 5000);
 	Crucible.addRecipe(<liquid:terrasteel> * 1296, <botania:storage:1>, 40000);
-	
+
 	melter.addRecipe(<ore:nuggetAlumite>, <liquid:alumite> * 16);
 	melter.addRecipe(<ore:ingotAlumite>, <liquid:alumite> * 144);
 	melter.addRecipe(<ore:blockAlumite>, <liquid:alumite> * 1296);
@@ -68,5 +68,5 @@ print("--- loading FluidCompatibility.zs ---");
 	melter.addRecipe(<ore:blockThaumium>, <liquid:thaumium> * 1296);
 	melter.addRecipe(<botania:storage:0>, <liquid:manasteel> * 1296);
 	melter.addRecipe(<botania:storage:1>, <liquid:terrasteel> * 1296);
-	
+
 print("--- FluidCompatibility.zs initialized ---");
