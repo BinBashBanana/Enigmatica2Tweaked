@@ -217,7 +217,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 # *======= Assorted OreDictionary =======*
 
 #Marble
-	stonemarblepolished.add(<astralsorcery:blockmarble>);
+	stonemarblepolished.add(<astralsorcery:blockmarble:0>);
 	stonemarblepolished.add(<astralsorcery:blockmarble:1>);
 	stonemarblepolished.add(<astralsorcery:blockmarble:2>);
 	stonemarblepolished.add(<astralsorcery:blockmarble:3>);

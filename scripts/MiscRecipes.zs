@@ -10,6 +10,21 @@ import mods.jei.JEI.removeAndHide as rh;
 # Readding Bread recipe to make Minecolony Bakers happy
 	recipes.addShaped("Bread", <minecraft:bread>, [[<ore:listAllgrain>, <ore:listAllgrain>, <ore:listAllgrain>]]);
 
+# Project Red Marble Brick
+	recipes.remove(<projectred-exploration:stone:1>);
+	recipes.addShaped("Project Red Marble Brick",
+	<projectred-exploration:stone:1> * 4,
+	[[<ore:stoneMarble>, null, <ore:stoneMarble>],
+	[<ore:stoneMarble>, null, <ore:stoneMarble>]]);
+
+# Project Red Marble Wall
+	recipes.remove(<projectred-exploration:stone_wall:0>);
+	recipes.addShaped("Project Red Marble Wall",
+	<projectred-exploration:stone_wall:0> * 6,
+	[[null, <ore:stoneMarble>, null],
+	[<ore:stoneMarble>, <ore:stoneMarble>, <ore:stoneMarble>],
+	[<ore:stoneMarble>, null, <ore:stoneMarble>]]);
+
 # Quark Marble Wall Oredicted version
 	recipes.remove(<quark:marble_wall>);
 	recipes.addShaped("Quark Marble Wall",
