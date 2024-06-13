@@ -12,6 +12,8 @@
 /screenshots/
 /mods/
 /world/
+/assetmover/
+/caches/
 /config/enderio/recipes/examples
 **/*.pdf
 
@@ -82,6 +84,9 @@ optionsshaders.txt
 OpenComputersMod-1.8.3-52-libjnlua52-windows-x86_64.dll
 OpenComputersMod-1.8.3-53-libjnlua53-windows-x86_64.dll
 OpenComputersMod-1.8.3-54-libjnlua54-windows-x86_64.dll
+OpenComputersMod-1.8.5-52-libjnlua52-windows-x86_64.dll
+OpenComputersMod-1.8.5-53-libjnlua53-windows-x86_64.dll
+OpenComputersMod-1.8.5-54-libjnlua54-windows-x86_64.dll
 roots.log
 tv-cache
 jei_bookmarks.ini

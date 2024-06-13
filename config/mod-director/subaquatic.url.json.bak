@@ -1,0 +1,12 @@
+{
+	"url": "https://cdn.modrinth.com/data/GjqoNelE/versions/8I38sNEh/Subaquatic-v1.2.1-mc1.12.2.jar",
+	"installationPolicy": {
+		"name": "Subaquatic"
+	},
+	"metadata": {
+		"hash": {
+			"SHA-256": "f541b25c968a2ad6e93d25770a1fc1b45096d9551e9843ed70e82f09f92f6d36",
+			"MD5": "6d6941b76d8564769022a9c164ab5206"
+		}
+	}
+}

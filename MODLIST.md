@@ -1,16 +1,16 @@
-## Enigmatica 2 Tweaked 1.00 Modlist
+## Enigmatica 2 Tweaked 1.03 Modlist
 
-1.12.2 forge 14.23.5.2859  
-Generate list with `ls | sed 's/^/- /g'`
+1.12.2 forge 14.23.5.2860  
+Generate list with `ls *.jar | sed 's/^/- /g'`
 
 ---
 - ActuallyAdditions-1.12.2-r152.jar
 - ActuallyBaubles-1.12-1.1.jar
 - actuallycomputers-2.2.0.jar
 - AdvancedRocketry-1.12.2-2.0.0-17.jar
-- ae2stuff-0.7.0.4-mc1.12.2.jar
-- AEAdditions-1.12.2-1.3.8.jar
+- ae2-uel-v0.56.6.jar
 - AkashicTome-1.2-12.jar
+- Alfheim-1.3.jar
 - ancientwarfare-1.12.2-2.7.0.1038.jar
 - animania-1.12.2-base-2.0.3.28.jar
 - animania-1.12.2-catsdogs-1.0.0.28.jar
@@ -19,12 +19,12 @@ Generate list with `ls | sed 's/^/- /g'`
 - Animus-1.12-2.1.7.jar
 - AppleCore-mc1.12.2-3.4.0.jar
 - AppleSkin-mc1.12-1.0.14.jar
-- appliedenergistics2-rv6-stable-7-extended_life-v0.55.21.jar
-- AquaAcrobatics-1.15.3.jar
+- AquaAcrobatics-1.15.4.jar
 - architecturecraft-1.12-3.108.jar
 - armoryexpansion-1.4.2.jar
 - Aroma1997Core-1.12.2-2.0.0.2.jar
 - Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar
+- assetmover-2.5.jar
 - astralsorcery-1.12.2-1.10.27.jar
 - AutoRegLib-1.3-32.jar
 - backpack-3.0.2-1.12.2.jar
@@ -33,15 +33,15 @@ Generate list with `ls | sed 's/^/- /g'`
 - bdlib-1.14.4.1-mc1.12.2.jar
 - BetterAdvancements-1.12.2-0.1.0.77.jar
 - BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar
-- BetterQuestingUnofficial-4.1.0.jar
+- betterp2p-1.12.2-1.3.2.jar
+- BetterQuestingUnofficial-4.2.2.jar
 - BiblioCraft[v2.4.6][MC1.12.2].jar
-- binnie-mods-1.12.2-2.5.1.203.jar
+- binnie-mods-1.12.2-2.5.1.211.jar
 - BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar
 - blockcraftery-1.12.2-1.3.1.jar
 - BloodMagic-1.12.2-2.4.3-105.jar
 - bonsaitrees-1.1.4-b170.jar
 - Bookshelf-1.12.2-2.3.590.jar
-- Born In A Barn 1.8-1.12-1.2.jar
 - Botania r1.10-364.4.jar
 - BrandonsCore-1.12.2-2.4.20.162-universal.jar
 - BuildingGadgets-2.8.4.jar
@@ -53,7 +53,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - ChickenChunks-1.12.2-2.4.2.74-universal.jar
 - Chisel-MC1.12.2-1.0.2.45.jar
 - chiselsandbits-14.33.jar
-- Chunk Pregenerator-V1.12-2.5.7.jar
+- Chunk-Pregenerator-1.12.2-4.4.5.jar
 - Clumps-3.1.2.jar
 - CodeChickenLib-1.12.2-3.2.3.358-universal.jar
 - CoFHCore-1.12.2-4.6.6.1-universal.jar
@@ -62,11 +62,12 @@ Generate list with `ls | sed 's/^/- /g'`
 - CommonCapabilities-1.12.2-2.4.8.jar
 - compactmachines3-1.12.2-3.0.18-b278.jar
 - conarm-1.12.2-1.2.5.10.jar
-- Controlling-3.0.12.2.jar
+- !configanytime-3.0.jar
+- Controlling-3.0.12.4.jar
 - CookingForBlockheads_1.12.2-6.5.0.jar
 - CosmeticArmorReworked-1.12.2-v5a.jar
 - CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar
-- CraftTweaker2-1.12-4.1.20.690.jar
+- CraftTweaker2-1.12-4.1.20.699.jar
 - crossroads-1.12.2-1.12.2.jar
 - CTM-MC1.12.2-1.0.2.31.jar
 - CustomBackgrounds-MC1.12-1.1.1.jar
@@ -87,21 +88,21 @@ Generate list with `ls | sed 's/^/- /g'`
 - EnderIO-endergy-1.12.2-5.3.72.jar
 - EnderStorage-1.12.2-2.4.6.137-universal.jar
 - engineers_doors-1.12.2-0.9.1.jar
-- EntityCulling-1.12.2-6.4.1.jar
+- EntityCulling-1.12.2-6.4.3.jar
 - environmentalmaterials-1.12.2-1.0.20.1.jar
 - environmentaltech-1.12.2-2.0.20.1.jar
 - essentials-1.12.2-1.2.1.jar
-- Exchangers-1.12.2-2.10.2.jar
+- Exchangers-1.12.2-2.10.3.jar
 - ExtraBitManipulation-1.12.2-3.4.1.jar
 - ExtraRails-1.12-1.3.0.jar
 - extrautils2-1.12-1.9.9.jar
 - ExtremeReactors-1.12.2-0.4.5.68.jar
 - FarmingForBlockheads_1.12.2-3.1.28.jar
-- Farseek-1.12-2.5.1.jar
 - FastFurnace-1.12.2-1.3.1.jar
+- fermiumasm-5.19.jar
 - flatcoloredblocks-mc1.12-6.8.jar
-- Fluid Craft for AE2-2.4.27-r.jar
-- Fluidlogged-API-v2.2.4-mc1.12.2.jar
+- Fluid Craft for AE2-2.6.1-r.jar
+- Fluidlogged-API-v2.2.7-mc1.12.2.jar
 - forestry_1.12.2-5.8.2.422.jar
 - Forgelin-1.8.4.jar
 - ForgeMultipart-1.12.2-2.6.2.83-universal.jar
@@ -135,14 +136,14 @@ Generate list with `ls | sed 's/^/- /g'`
 - ironchest-1.12.2-7.0.72.847.jar
 - IvToolkit-1.3.3-1.12.jar
 - JAOPCA-1.12.2-2.2.8.106.jar
-- jei_1.12.2-4.16.1.1003.jar
+- jei_1.12.2-4.16.1.1012.jar
 - jeibees-0.9.0.5-mc1.12.2.jar
 - jeiintegration_1.12.2-1.6.0.jar
 - JEI-Utilities-1.12.2-0.2.12.jar
 - jeivillagers-1.12-1.0.2.jar
 - jepb-1.12-1.2.1.jar
 - jetif-1.12.2-1.5.2.jar
-- journeymap-1.12.2-5.7.1.jar
+- journeymap-1.12.2-5.7.1p2.jar
 - JustEnoughEnergistics-1.12.2-1.0.8.jar
 - just-enough-harvestcraft-1.12.2-1.7.2.jar
 - JustEnoughPetroleum-0.1.jar
@@ -157,6 +158,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - librarianlib-1.12.2-4.22.jar
 - LibVulpes-1.12.2-0.4.2-25-universal.jar
 - lootcapacitortooltips-1.3.jar
+- lootr-1.12.2-0.6.2.jar
 - LunatriusCore-1.12.2-1.2.0.42-universal.jar
 - MagicBees-1.12.2-3.2.25.jar
 - malisiscore-1.12.2-6.5.1.jar
@@ -164,15 +166,17 @@ Generate list with `ls | sed 's/^/- /g'`
 - Mantle-1.12-1.3.3.55.jar
 - mcjtylib-1.12-3.5.4.jar
 - MCMultiPart-2.5.3.jar
-- MCTImmersiveTechnology-1.12.2-1.9.101.jar
+- MCTImmersiveTechnology-1.12.2-1.8.94.jar
 - meecreeps-1.12-1.3.1.jar
 - Mekanism-1.12.2-9.8.3.390.jar
+- MekanismEnergistics-0.1.4.jar
 - MekanismGenerators-1.12.2-9.8.3.390.jar
 - MekanismTools-1.12.2-9.8.3.390.jar
 - MemoryTester-0.4.2.jar
 - minecolonies-1.12.2-0.11.841-BETA-universal.jar
-- !mixinbooter-7.1.jar
+- !mixinbooter-8.8.jar
 - MobGrindingUtils-0.3.13.jar
+- !mod-director-launchwrapper-1.8.3.jar
 - modnametooltip_1.12.2-1.10.1.jar
 - modtweaker-4.0.20.11.jar
 - modular-routers-1.12.2-3.3.0-33.jar
@@ -185,6 +189,7 @@ Generate list with `ls | sed 's/^/- /g'`
 - MTLib-3.0.7.jar
 - mysticallib-1.12.2-1.13.0.jar
 - mysticalworld-1.12.2-1.11.0.jar
+- nae2-1.6.4.jar
 - natura-1.12.2-4.3.2.69.jar
 - NaturesCompass-1.12.2-1.8.5.jar
 - Neat 1.4-17.jar
@@ -192,25 +197,27 @@ Generate list with `ls | sed 's/^/- /g'`
 - NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
 - NoTemaStahp-1.12.2-1.0.3.jar
 - notenoughwands-1.12-1.8.1.jar
-- NuclearCraft-2.18z-1.12.2.jar
+- nuclearcraft-1.12.2-2.19.jar
 - Nutrition-1.12.2-4.9.0.jar
 - OldJavaWarning-1.12.2-1.1.11.jar
 - OpenBlocks-1.12.2-1.8.1.jar
-- OpenComputers-MC1.12.2-1.8.3+274990f.jar
+- OpenComputers-MC1.12.2-1.8.5+179e1c3.jar
 - OpenModsLib-1.12.2-0.12.2.jar
+- OptiFine_1.12.2_HD_U_G5.jar
 - OreExcavation-1.4.150.jar
 - overloadedarmorbar-1.0.4g.jar
 - p455w0rdslib-1.12.2-2.3.161.jar
-- PackagedAstral-1.12.2-1.0.2.8.jar
-- PackagedAuto-1.12.2-1.0.9.33.jar
-- PackagedDraconic-1.12.2-1.0.0.6.jar
+- PackagedAstral-1.12.2-1.0.2.13.jar
+- PackagedAuto-1.12.2-1.0.13.49.jar
+- PackagedDraconic-1.12.2-1.0.0.13.jar
 - Pam's HarvestCraft 1.12.2zg.jar
+- particleculling-1.12.2-v1.4.3.jar
 - Patchouli-1.0-23.6.jar
-- phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal.jar
+- persistency-1.2.0.jar
 - Placebo-1.12.2-1.6.1.jar
 - PlaneFix-1.12.2-1.0.0.jar
 - playersdropheads-1.12.x-1.1.0.jar
-- plustic-8.0.5.jar
+- plustic-8.0.6.jar
 - pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar
 - pressure-1.3.1.9-mc1.12.2.jar
 - PrettyBeaches_1.12.2-1.1.0.jar
@@ -229,36 +236,40 @@ Generate list with `ls | sed 's/^/- /g'`
 - RandomThings-MC1.12.2-4.2.7.4.jar
 - ReAuth-1.12-Forge-4.0.7.jar
 - RebornCore-1.12.2-3.19.5-universal.jar
+- !Red-Core-MC-1.7-1.12-0.5.1.jar
 - RedstoneArsenal-1.12.2-2.6.6.1-universal.jar
 - RedstoneFlux-1.12-2.1.1.1-universal.jar
-- RenderLib-1.12.2-1.3.3.jar
+- RenderLib-1.12.2-1.3.4.jar
 - ResourceLoader-MC1.12.1-1.5.3.jar
 - rftools-1.12-7.73.jar
 - rftoolsctrl-1.12-2.0.2.jar
 - rftoolsdim-1.12-5.71.jar
 - RoguelikeDungeons-1.12.2-1.8.0.jar
-- Roots-1.12.2-3.1.7.jar
-- RoughlyEnoughIDs-2.0.6.jar
+- Roots-1.12.2-3.1.9.2.jar
+- RoughlyEnoughIDs-2.1.1.jar
 - rustic-1.1.7.jar
 - Scannable-MC1.12.2-1.6.3.26.jar
 - Schematica-1.12.2-1.8.0.169-universal.jar
 - Seared-Ladder-v1.1.2-mc1.12.2.jar
 - ShadowMC-1.12-3.8.0.jar
 - SimplyJetpacks2-1.12.2-2.2.20.0.jar
+- Sledgehammer-1.12.2-2.0.26-thin.jar
 - solcarrot-1.12.2-1.8.4.jar
-- startuptimer-1.0.1.jar
+- startuptimer-1.1.0.jar
 - StorageDrawers-1.12.2-5.5.0.jar
 - StorageDrawersExtras-1.12-3.1.0.jar
-- Streams-1.12-0.4.8.jar
 - structurize-1.12.2-0.10.277-RELEASE.jar
 - supersoundmuffler-revived_1.12.2_1.0.2.10.jar
 - Tatw-1.12.2-1.0.1.2.b27.jar
+- tconevo-1.12.2-1.0.49.jar
 - TConstruct-1.12.2-2.13.0.183.jar
 - Tesla-1.12.2-1.0.63.jar
 - tesla-core-lib-1.12.2-1.0.18.jar
 - Thaumcraft-1.12.2-6.1.BETA26.jar
+- ThaumicAugmentation-1.12.2-2.1.11.jar
 - ThaumicInventoryScanning_1.12.2-2.0.10.jar
 - ThaumicJEI-1.12.2-1.6.0-27.jar
+- thaumicspeedup-4.0.jar
 - thaumictinkerer-1.12.2-5.0-620a0c5.jar
 - theoneprobe-1.12-1.4.28.jar
 - ThermalCultivation-1.12.2-0.3.6.1-universal.jar
@@ -276,15 +287,15 @@ Generate list with `ls | sed 's/^/- /g'`
 - toughnessbar-2.4.jar
 - twilightforest-1.12.2-3.11.1021-universal.jar
 - UniDict-1.12.2-3.0.10.jar
-- UniversalTweaks-1.12.2-1.6.0.jar
+- UniversalTweaks-1.12.2-1.11.0.jar
 - UnlimitedChiselWorks-0.3.5.jar
 - valkyrielib-1.12.2-2.0.20.1.jar
 - villager-market-1.12.2-1.0.2.jar
-- vintagefix-0.3.2.jar
+- vintagefix-0.5.0.jar
 - WAIM-1.0.0.jar
 - WanionLib-1.12.2-2.91.jar
 - Waystones_1.12.2-4.1.0.jar
-- wizardry-0.11.1.jar
+- wizardry-0.11.3.jar
 - worleycaves-1.12.2-1.5.2.jar
 - WrapUp-1.12-1.1.3.jar
 - xnet-1.12-1.8.2.jar

@@ -45,9 +45,6 @@ key_roots.keybinds.quiver:0:NONE
 key_roots.keybinds.spell_library:0:NONE
 key_roots.keybinds.cycle:0:NONE
 key_roots.keybinds.delete_spell:0:NONE
-key_quark.keybind.lockBuilding:37:NONE
-key_quark.keybind.toggleAutojump:0:NONE
-key_quark.keybind.dropoff:0:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -66,6 +63,9 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
+key_quark.keybind.toggleAutojump:0:NONE
+key_quark.keybind.lockBuilding:37:NONE
+key_quark.keybind.dropoff:0:NONE
 key_bloodmagic.keybind.open_holding:0:NONE
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -232,6 +232,7 @@ key_keybinding.extrabitmanipulation.bitmapping:19:NONE
 key_keybinding.extrabitmanipulation.shift:0:NONE
 key_keybinding.extrabitmanipulation.control:0:NONE
 key_keybinding.extrabitmanipulation.alt:45:NONE
+key_key.ae2fc.open_wireless_fluid_pattern_terminal.desc:0:NONE
 key_FpsReducer.key.guiOpen:207:NONE
 key_FpsReducer.key.forceIdle:197:NONE
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
@@ -264,6 +265,7 @@ key_key.plustic_mots.desc:13:ALT
 key_pi.key.open_pi:23:NONE
 key_pi.key.et_gui:23:NONE
 key_pi.key.et_world:23:CONTROL
+key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_Toggle Jetpack:45:NONE
 key_Open Rocket GUI:0:NONE
 key_Toggle RCS:0:NONE
@@ -288,7 +290,6 @@ key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
 key_key.control:29:NONE
-key_Profile GUI:210:NONE
 key_enderio.keybind.inventory:23:NONE
 key_enderio.keybind.dsu:0:NONE
 key_enderio.keybind.glidertoggle:34:NONE

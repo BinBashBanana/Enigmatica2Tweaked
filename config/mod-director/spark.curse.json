@@ -1,0 +1,17 @@
+{
+	"addonId": 361579,
+	"fileId": 3542217,
+	"installationPolicy": {
+		"continueOnFailedDownload": true,
+		"optionalKey": "$",
+		"selectedByDefault": false,
+		"name": "Spark",
+		"description": "Performance profiler mod"
+	},
+	"metadata": {
+		"hash": {
+			"SHA-256": "c77a59d84d68dd32f8394f7e0cf21e229db36c220c8f2f82bcffd832f1ffdaea",
+			"MD5": "c07cf059777db6201d98e6794e60e0b4"
+		}
+	}
+}

@@ -9,10 +9,11 @@ Fork of Enigmatica 2 (1.12.2)
 <h3>Description</h3>
 <br />
 <p>
-This pack is essentially a mashup of Enigmatica 2 normal mode, Direwolf20 1.12.2, and ATM3R (plus a few other mods).
-A great all-purpose pack for beginners and experienced players.
+This pack is my take on a 1.12.2 modpack. It uses Enigmatica 2 as a base,
+but also takes some inspiration from other 1.12.2 packs I've played such as Direwolf20 and ATM3R.
+It is a great all-purpose pack for beginners and experienced players.
 It is kitchen-sink style, however it includes Enigmatica 2's quest book to help you along.
-This pack is medium-heavy, requiring about 6 GB of ram allocated to perform well.
+This pack is medium-heavy, requiring about 5 GB of ram allocated to perform well.
 I'd say the pack is just lighter than ATM3R.
 As of version 1.02, some mods from E2Eu are included.
 </p>
@@ -22,60 +23,54 @@ This pack does NOT include: refined storage, gregtech, buildcraft, projectE, ava
 <br />
 <h4><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/MODLIST.md">Full mod list</a></h4>
 <br />
-<h4>Latest release: 1.02b - <a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/changelogs/CHANGELOG.md">Changelog</a></h4>
-<br />
-<h3>Important!! Read this!!</h3>
-<p>
-I highly recommend using a custom build of NormalASM plus OptiFine with this modpack.
-You can play without either, but performance will suffer.
-I have confirmed that OptiFine is compatible, though some may want to use only NormalASM and not OptiFine.
-If you choose to do this, be sure to set `B:onDemandAnimatedTextures=false` back to `true` in `config/normalasm.cfg`.
-</p>
-<li><a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/releases/download/normalasm-5.14-spongeforge-compat/normalasm-5.14-spongeforge-compat.jar">NormalASM custom build</a></li>
-<li><a href="https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar">OptiFine</a></li>
-<p>
-For more information about the custom build of NormalASM, see <a href="https://github.com/mirrorcult/NormalASM/pull/1">here</a> and <a href="https://github.com/LoliKingdom/LoliASM/pull/199">here</a>.
-</p>
+<h4>Latest release: 1.03 - <a href="https://github.com/BinBashBanana/Enigmatica2Tweaked/blob/master/changelogs/CHANGELOG.md">Changelog</a></h4>
 <br />
 <h4>Added mods</h4>
 <div class="spoiler">
 <li>actually computers</li>
-<li>ae additions</li>
 <li>ae2 fluid crafting rework</li>
 <li>ae2 unofficial extended life</li>
+<li>alfheim lighting engine</li>
 <li>animus</li>
 <li>aqua acrobatics</li>
 <li>armory expansion</li>
 <li>aroma1997s dimensional world</li>
+<li>better p2p</li>
 <li>better questing unofficial</li>
+<li>binnie's mods patched</li>
 <li>bonsai trees</li>
-<li>born in a barn</li>
 <li>chicken chunks</li>
 <li>crossroads/essentials</li>
 <li>/dank/null/no_RCE/</li>
 <li>endergy</li>
 <li>entity culling</li>
 <li>exchangers</li>
+<li>fermiumasm</li>
+<li>file director</li>
 <li>fluidlogged api</li>
 <li>friendly chests</li>
 <li>furniture mod</li>
 <li>gas conduits</li>
-<li>hesperus</li>
 <li>integrated nbt</li>
 <li>jei integration</li>
 <li>jei utilities</li>
 <li>lazy ae2</li>
 <li>lazy ae2 patch</li>
 <li>letsencryptcraft</li>
+<li>lootr</li>
+<li>mekanism energistics</li>
 <li>mob grinding utils</li>
 <li>mod name tooltip</li>
 <li>morph</li>
 <li>morpheus</li>
+<li>nae2</li>
 <li>netherportalfix</li>
 <li>no tema stahp</li>
+<li>optifine (via file director, optional)</li>
 <li>packagedastral</li>
 <li>packagedauto</li>
 <li>packageddraconic</li>
+<li>particle culling</li>
 <li>pressure pipes</li>
 <li>projectred</li>
 <li>proportional destruction particles</li>
@@ -84,10 +79,14 @@ For more information about the custom build of NormalASM, see <a href="https://g
 <li>roughly enough ids</li>
 <li>seared ladder backport</li>
 <li>simply jetpacks 2</li>
+<li>sledgehammer</li>
 <li>startup timer</li>
 <li>storage drawers extras</li>
 <li>tatw (beta version)</li>
+<li>thaumic augmentation</li>
+<li>thaumic speedup</li>
 <li>the one probe</li>
+<li>tinkers' evolution</li>
 <li>top addons</li>
 <li>universal tweaks</li>
 <li>waim</li>
@@ -99,24 +98,26 @@ For more information about the custom build of NormalASM, see <a href="https://g
 <h4>Removed mods</h4>
 <div class="spoiler">
 <li>ae2, wireless crafting terminal (in favor of ae2 unofficial extended life)</li>
+<li>ae2 stuff (other mods have features that do the same things)</li>
 <li>ai improvements, diet hoppers, ding, fastworkbench, fence jumper, no night vision flashing, quick leaf decay, swing through grass, toast control, unloader (in favor of universal tweaks)</li>
 <li>better questing/standard expansion/quest book (in favor of better questing unofficial)</li>
 <li>betterfps (very little fps improvement, use optifine instead)</li>
+<li>binnie's mods (in favor of binnie's mods patched)</li>
 <li>/dank/null (in favor of /dank/null/no_RCE/)</li>
-<li>extra cells (in favor of ae additions)</li>
+<li>extra cells (in favor of mekanism energistics and nae2)</li>
 <li>foamfix (in favor of vintagefix)</li>
 <li>hwyla (in favor of the one probe)</li>
 <li>lostcities (due to jeid/reid incompatibility)</li>
 <li>neid (in favor of roughly enough ids)</li>
-<li>phosphor (in favor of hesperus)</li>
+<li>phosphor (in favor of alfheim lighting engine)</li>
 <li>recurrent complex (due to massive server lag)</li>
+<li>streams (causes world gen issues)</li>
 <li>wawla (in favor of the one probe)</li>
 </div>
 <br />
 <h4>Other mod changes</h4>
 <div class="spoiler">
-<li>all mods updated except nuclearcraft, streams</li>
-<li>streams rolled back to 0.4.8 to fix spongeforge incompatibility</li>
+<li>all mods updated except immersive technology</li>
 <li>animania addons added</li>
 </div>
 <br />
@@ -136,24 +137,22 @@ For more information about the custom build of NormalASM, see <a href="https://g
 <br />
 <h4>Recommended JVM arguments</h4>
 From <a href="https://www.reddit.com/r/feedthebeast/comments/5jhuk9/modded_mc_and_memory_usage_a_history_with_a/">this reddit post</a>:
-<pre class="codeStyle" style="font-family:monospace;background-color:#e0e0e0;padding: 5px 8px;border-radius:4px;overflow:auto">
--Xmx6656M -Xms4G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+<pre class="codeStyle" style="font-family:monospace;background-color:#e0e0e0;color:#000000">
+-Xmx5G -Xms4G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 </pre>
 You'll also need Java 8 exactly, and <a href="https://adoptium.net/temurin/releases/?version=8">adoptium.net</a> is the best place to get it IMO.
 <br />
 <br />
 For the server, from <a href="https://mcflags.emc.gs">mcflags.emc.gs</a>:
-<pre class="codeStyle" style="font-family:monospace;background-color:#e0e0e0;padding: 5px 8px;border-radius:4px;overflow:auto">
-java -Xmx6G -Xms5G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar forge-1.12.2-14.23.5.2859.jar nogui
+<pre class="codeStyle" style="font-family:monospace;background-color:#e0e0e0;color:#000000">
+java -Xmx5G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar forge-1.12.2-14.23.5.2860.jar nogui
 </pre>
 Note: you can usually get away with 4 GB, but 6 GB is better especially for pregen.
 <br />
 <br />
 <h4>Extra notes for servers</h4>
-<li>Do not use chunk pregenerator due to incompatibilities with reid/jeid. Use `/forge generate` until it is fixed. See [RoughlyEnoughIDs#14](https://github.com/TerraFirmaCraft-The-Final-Frontier/RoughlyEnoughIDs/issues/14) for more information.</li>
 <li>If you want recurrent complex structures in your world, add the mod before you pregenerate the world, then remove it.</li>
 <li>If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.</li>
-<li>I have included a patched build of NormalASM that fixes a crash with spongeforge. See issue 194 for more information. You will also need to set `threadPriorityFix=false` in normalasm.cfg (server only).</li>
 <br />
 <h4>Recommended resource packs</h4>
 <li><a href="https://github.com/F32Organization/Faithful32-1.12.2">Faithful32 Modded</a></li>

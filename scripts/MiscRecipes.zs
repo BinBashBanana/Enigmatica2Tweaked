@@ -276,7 +276,6 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<immersiveengineering:metal:26>);
 	rh(<immersiveengineering:metal:27>);
 	rh(<immersiveengineering:metal:28>);
-	rh(<plustic:invarnugget>);
 
 # *======= Metal Gears =======*
 

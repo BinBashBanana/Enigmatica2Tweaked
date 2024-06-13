@@ -1,0 +1,17 @@
+{
+	"addonId": 283525,
+	"fileId": 2901773,
+	"installationPolicy": {
+		"continueOnFailedDownload": true,
+		"optionalKey": "$",
+		"selectedByDefault": false,
+		"name": "LagGoggles",
+		"description": "Performance profiler mod"
+	},
+	"metadata": {
+		"hash": {
+			"SHA-256": "e626ae952ffcab35bc639422ab75dad941e9bddd01ee01b04d0f823dfa818ff8",
+			"MD5": "0fc73dbe3efc2f033ffe5c7d74eb4714"
+		}
+	}
+}

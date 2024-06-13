@@ -62,10 +62,3 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:0.0
 soundCategory_voice:1.0
-modelPart_cape:true
-modelPart_jacket:true
-modelPart_left_sleeve:true
-modelPart_right_sleeve:true
-modelPart_left_pants_leg:true
-modelPart_right_pants_leg:true
-modelPart_hat:true

@@ -5,26 +5,17 @@ Fork of Enigmatica 2 (1.12.2)
 **This pack is unofficial and is NOT affiliated with the creators of Enigmatica. I have [permission](https://github.com/EnigmaticaModpacks/Enigmatica2/issues/748) from NillerMedDild to upload this pack.**
 
 ## Description
-This pack is essentially a mashup of Enigmatica 2 normal mode, Direwolf20 1.12.2, and ATM3R (plus a few other mods).
-A great all-purpose pack for beginners and experienced players.
+This pack is my take on a 1.12.2 modpack. It uses Enigmatica 2 as a base,
+but also takes some inspiration from other 1.12.2 packs I've played such as Direwolf20 and ATM3R.
+It is a great all-purpose pack for beginners and experienced players.
 It is kitchen-sink style, however it includes Enigmatica 2's quest book to help you along.
-This pack is medium-heavy, requiring about 6 GB of ram allocated to perform well.
+This pack is medium-heavy, requiring about 5 GB of ram allocated to perform well.
 I'd say the pack is just lighter than ATM3R.
 As of version 1.02, some mods from E2Eu are included.  
 This pack does NOT include: refined storage, gregtech, buildcraft, projectE, avaritia, mystical agriculture, others...
 
 ### [Full mod list](/MODLIST.md)
-### Latest release: 1.02b - [Changelog](/changelogs/CHANGELOG.md)
-
-## Important!! Read this!!
-I highly recommend using a custom build of NormalASM plus OptiFine with this modpack.
-You can play without either, but performance will suffer.
-I have confirmed that OptiFine is compatible, though some may want to use only NormalASM and not OptiFine.
-If you choose to do this, be sure to set `B:onDemandAnimatedTextures=false` back to `true` in `config/normalasm.cfg`.
-- [NormalASM custom build](https://github.com/BinBashBanana/Enigmatica2Tweaked/releases/download/normalasm-5.14-spongeforge-compat/normalasm-5.14-spongeforge-compat.jar)
-- [OptiFine](https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar)
-
-For more information about the custom build of NormalASM, see [here](https://github.com/mirrorcult/NormalASM/pull/1) and [here](https://github.com/LoliKingdom/LoliASM/pull/199).
+### Latest release: 1.03 - [Changelog](/changelogs/CHANGELOG.md)
 
 ### Added mods
 <details>
@@ -33,42 +24,49 @@ click to show
 </summary>
 
 - actually computers
-- ae additions
 - ae2 fluid crafting rework
 - ae2 unofficial extended life
+- alfheim lighting engine
 - animus
 - aqua acrobatics
 - armory expansion
 - aroma1997s dimensional world
+- better p2p
 - better questing unofficial
+- binnie's mods patched
 - bonsai trees
-- born in a barn
 - chicken chunks
 - crossroads/essentials
 - /dank/null/no_RCE/
 - endergy
 - entity culling
 - exchangers
+- fermiumasm
+- file director
 - fluidlogged api
 - friendly chests
 - furniture mod
 - gas conduits
-- hesperus
 - integrated nbt
 - jei integration
 - jei utilities
 - lazy ae2
 - lazy ae2 patch
 - letsencryptcraft
+- lootr
+- mekanism energistics
 - mob grinding utils
 - mod name tooltip
 - morph
 - morpheus
+- nae2
 - netherportalfix
 - no tema stahp
+- optifine (via file director, optional)
 - packagedastral
 - packagedauto
 - packageddraconic
+- particle culling
 - pressure pipes
 - projectred
 - proportional destruction particles
@@ -77,10 +75,14 @@ click to show
 - roughly enough ids
 - seared ladder backport
 - simply jetpacks 2
+- sledgehammer
 - startup timer
 - storage drawers extras
 - tatw (beta version)
+- thaumic augmentation
+- thaumic speedup
 - the one probe
+- tinkers' evolution
 - top addons
 - universal tweaks
 - waim
@@ -97,17 +99,20 @@ click to show
 </summary>
 
 - ae2, wireless crafting terminal (in favor of ae2 unofficial extended life)
+- ae2 stuff (other mods have features that do the same things)
 - ai improvements, diet hoppers, ding, fastworkbench, fence jumper, no night vision flashing, quick leaf decay, swing through grass, toast control, unloader (in favor of universal tweaks)
 - better questing/standard expansion/quest book (in favor of better questing unofficial)
 - betterfps (very little fps improvement, use optifine instead)
+- binnie's mods (in favor of binnie's mods patched)
 - /dank/null (in favor of /dank/null/no_RCE/)
-- extra cells (in favor of ae additions)
+- extra cells (in favor of mekanism energistics and nae2)
 - foamfix (in favor of vintagefix)
 - hwyla (in favor of the one probe)
 - lostcities (due to jeid/reid incompatibility)
 - neid (in favor of roughly enough ids)
-- phosphor (in favor of hesperus)
+- phosphor (in favor of alfheim lighting engine)
 - recurrent complex (due to massive server lag)
+- streams (causes world gen issues)
 - wawla (in favor of the one probe)
 
 </details>
@@ -118,8 +123,7 @@ click to show
 click to show
 </summary>
 
-- all mods updated except nuclearcraft, streams
-- streams rolled back to 0.4.8 to fix spongeforge incompatibility
+- all mods updated except immersive technology
 - animania addons added
 
 </details>
@@ -146,21 +150,19 @@ click to show
 ### Recommended JVM arguments
 From [this reddit post](https://www.reddit.com/r/feedthebeast/comments/5jhuk9/modded_mc_and_memory_usage_a_history_with_a/):
 ```
--Xmx6656M -Xms4G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+-Xmx5G -Xms4G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
 You'll also need Java 8 exactly, and [adoptium.net](https://adoptium.net/temurin/releases/?version=8) is the best place to get it IMO.
 
 For the server, from [mcflags.emc.gs](https://mcflags.emc.gs):
 ```
-java -Xmx6G -Xms5G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar forge-1.12.2-14.23.5.2859.jar nogui
+java -Xmx5G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar forge-1.12.2-14.23.5.2860.jar nogui
 ```
 Note: you can usually get away with 4 GB, but 6 GB is better especially for pregen.
 
 ### Extra notes for servers
-- Do not use chunk pregenerator due to incompatibilities with reid/jeid. Use `/forge generate` until it is fixed. See [RoughlyEnoughIDs#14](https://github.com/TerraFirmaCraft-The-Final-Frontier/RoughlyEnoughIDs/issues/14) for more information.
 - If you want recurrent complex structures in your world, add the mod before you pregenerate the world, then remove it.
 - If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
-- I have included a patched build of NormalASM that fixes a crash with spongeforge. See issue 194 for more information. You will also need to set `threadPriorityFix=false` in normalasm.cfg (server only).
 
 ### Recommended resource packs
 - [Faithful32 Modded](https://github.com/F32Organization/Faithful32-1.12.2)
@@ -185,6 +187,7 @@ click to show
 maybe in future updates:
 - nothirium
 - mo creatures extended
+- subaquatic
 
 #### Pack files
 - curseforge
@@ -205,7 +208,6 @@ maybe in future updates:
   - config
   - mods
   - scripts
-  - structures
   - server.properties
   - SERVER_GUIDE.txt
   - ServerStart.bat

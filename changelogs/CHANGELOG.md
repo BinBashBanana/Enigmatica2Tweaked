@@ -1,3 +1,42 @@
+# Enigmatica 2 Tweaked 1.03 Changelog
+
+*Using Forge-1.12.2-14.23.5.2860*
+
+- updated mods
+
+**Added mods**
+
+- alfheim lighting engine
+- better p2p
+- binnie's mods patched
+- fermiumasm
+- file director
+- lootr
+- mekanism energistics
+- nae2
+- optifine (via file director, optional)
+- particle culling
+- sledgehammer
+- thaumic augmentation
+- thaumic speedup
+- tinkers' evolution
+
+**Removed mods**
+
+- ae2 stuff (other mods have features that do the same things)
+- ae additions (in favor of mekanism energistics and nae2)
+- binnie's mods (in favor of binnie's mods patched)
+- born in a barn (already in forge)
+- hesperus (in favor of alfeim lighting engine)
+- streams (causes world gen issues)
+
+**Other mod changes**
+
+- fluidlogged api and friendly chests are now downloaded via file director
+- downgraded immersive technology to 1.8.94
+
+
+
 # Enigmatica 2 Tweaked 1.02b Changelog
 
 *Using Forge-1.12.2-14.23.5.2859*
