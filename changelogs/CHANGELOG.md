@@ -1,3 +1,11 @@
+# Enigmatica 2 Tweaked 1.04 Changelog
+
+*Using Forge-1.12.2-14.23.5.2860*
+
+- small hotfix: updated mods, fixes [this annoying bug](https://github.com/TinyModularThings/Chunk-Pregenerator-Issue-Tracker/issues/61)
+
+
+
 # Enigmatica 2 Tweaked 1.03 Changelog
 
 *Using Forge-1.12.2-14.23.5.2860*

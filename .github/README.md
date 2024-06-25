@@ -15,7 +15,7 @@ As of version 1.02, some mods from E2Eu are included.
 This pack does NOT include: refined storage, gregtech, buildcraft, projectE, avaritia, mystical agriculture, others...
 
 ### [Full mod list](/MODLIST.md)
-### Latest release: 1.03 - [Changelog](/changelogs/CHANGELOG.md)
+### Latest release: 1.04 - [Changelog](/changelogs/CHANGELOG.md)
 
 ### Added mods
 <details>
@@ -163,6 +163,7 @@ Note: you can usually get away with 4 GB, but 6 GB is better especially for preg
 ### Extra notes for servers
 - If you want recurrent complex structures in your world, add the mod before you pregenerate the world, then remove it.
 - If you want LagGoggles on your spongeforge server, you'll need the latest version that doesn't require TickCentral. Use `LagGoggles-THIN-1.12.2-4.11-92.jar`. Clients can still connect with the latest version of LagGoggles.
+- Lootr won't work on spongeforge servers. Also remove lootr before using chunk-pregenerator.
 
 ### Recommended resource packs
 - [Faithful32 Modded](https://github.com/F32Organization/Faithful32-1.12.2)

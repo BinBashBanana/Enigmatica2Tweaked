@@ -1,4 +1,4 @@
-## Enigmatica 2 Tweaked 1.03 Modlist
+## Enigmatica 2 Tweaked 1.04 Modlist
 
 1.12.2 forge 14.23.5.2860  
 Generate list with `ls *.jar | sed 's/^/- /g'`
@@ -46,6 +46,7 @@ Generate list with `ls *.jar | sed 's/^/- /g'`
 - BrandonsCore-1.12.2-2.4.20.162-universal.jar
 - BuildingGadgets-2.8.4.jar
 - capabilityadapter-1.1.3.jar
+- CarbonConfig-1.12.2-1.2.3.jar
 - careerbees-0.4.0.jar
 - carryon-1.12.2-1.12.7.23.jar
 - cc-tweaked-1.12.2-1.89.2.jar
@@ -53,7 +54,7 @@ Generate list with `ls *.jar | sed 's/^/- /g'`
 - ChickenChunks-1.12.2-2.4.2.74-universal.jar
 - Chisel-MC1.12.2-1.0.2.45.jar
 - chiselsandbits-14.33.jar
-- Chunk-Pregenerator-1.12.2-4.4.5.jar
+- Chunk-Pregenerator-1.12.2-4.4.7.jar
 - Clumps-3.1.2.jar
 - CodeChickenLib-1.12.2-3.2.3.358-universal.jar
 - CoFHCore-1.12.2-4.6.6.1-universal.jar
@@ -101,7 +102,7 @@ Generate list with `ls *.jar | sed 's/^/- /g'`
 - FastFurnace-1.12.2-1.3.1.jar
 - fermiumasm-5.19.jar
 - flatcoloredblocks-mc1.12-6.8.jar
-- Fluid Craft for AE2-2.6.1-r.jar
+- Fluid Craft for AE2-2.6.2-r.jar
 - Fluidlogged-API-v2.2.7-mc1.12.2.jar
 - forestry_1.12.2-5.8.2.422.jar
 - Forgelin-1.8.4.jar
@@ -239,7 +240,7 @@ Generate list with `ls *.jar | sed 's/^/- /g'`
 - !Red-Core-MC-1.7-1.12-0.5.1.jar
 - RedstoneArsenal-1.12.2-2.6.6.1-universal.jar
 - RedstoneFlux-1.12-2.1.1.1-universal.jar
-- RenderLib-1.12.2-1.3.4.jar
+- RenderLib-1.12.2-1.3.5.jar
 - ResourceLoader-MC1.12.1-1.5.3.jar
 - rftools-1.12-7.73.jar
 - rftoolsctrl-1.12-2.0.2.jar
